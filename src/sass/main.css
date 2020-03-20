@@ -319,6 +319,7 @@ input {
           justify-content: start;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
+  background-color: #fdfdfd;
 }
 
 .photo-container--full {
