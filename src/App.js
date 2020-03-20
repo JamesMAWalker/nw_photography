@@ -17,7 +17,7 @@ class App extends Component {
     this.state = {
       menuIsOpen: false,
       gridIsOpen: false,
-      currCat: 'calories'
+      currCat: ''
     };
   }
   
@@ -33,9 +33,15 @@ class App extends Component {
     if (clickedCat === 'calories') {
       this.setState(st => ({ 
         gridIsOpen: !st.gridIsOpen, 
-        currCat: clickedCat
+        // currCat: clickedCat
       }));
     }
+  }
+
+  changeCat = (evt) => {
+    // let clickedCat = evt.target.getAttribute('name').toLowerCase();
+
+    this.setState({ currCat: evt })
   }
 
   render() {
@@ -55,7 +61,7 @@ class App extends Component {
             gridIsOpen={gridIsOpen}
             toggleMenu={this.toggleMenu}
           />
-          <CategorySelector currCat={currCat} />
+          <CategorySelector changeCat={this.changeCat} currCat={currCat} />
         </div>
       );
     } else {

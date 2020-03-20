@@ -13,19 +13,15 @@ class CategorySelector extends Component {
     }
   }
   
-  activateCat = () => {
-
-  }
 
   render() {
     const { categories } = this.state;
-    const { currCat } = this.props;
-    console.log(currCat, categories);
+    const { currCat, changeCat } = this.props;
     
     return (
       <div className='category-selector'>
         {categories.map(cat => (
-          <CategoryItem currCat={currCat} name={cat.name.toLowerCase()}/>
+          <CategoryItem currCat={currCat} changeCat={changeCat} name={cat.name.toLowerCase()}/>
         ))}
       </div>
     );
