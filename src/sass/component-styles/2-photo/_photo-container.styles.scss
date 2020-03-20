@@ -10,7 +10,7 @@
   }
 
   &--part {
-    width: 73%;
+    width: 78%;
     height: 100vh;
   }
 }
@@ -24,8 +24,10 @@
 }
 
 .photo-slider {
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  align-self: center;
+  justify-self: center;
 }
 
 
