@@ -1,0 +1,8 @@
+.photo--small {
+  @include normalShadow;
+
+  height: 100%;
+  width: 95%;
+  object-fit: cover;
+  object-position: center;
+}

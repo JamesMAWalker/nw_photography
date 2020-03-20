@@ -1,0 +1,98 @@
+/* ------------------------------------- */
+/*	3. Base/Resets
+/* ------------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400&display=swap);
+
+$font-primary: 'Alegreya Sans', sans-serif;
+
+html {
+	font-size: 62.5%; /* 1rem = 10px */
+	font: $font-primary;
+	color: $color-grey;
+  padding: 0;
+	margin: 0;
+	margin-inline: 0 !important;
+	margin-block: 0 !important;
+	// user-select: none;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+
+	&::selection {
+		color: var(--color-primary);
+	}
+}
+
+
+::-webkit-scrollbar {
+	outline: var(--color-primary);
+    width: 5px;  
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-grey-light-4);
+	border-radius: 10px;
+}
+
+
+body {
+	box-sizing: border-box;
+	color: $color-grey;
+  font-family: $font-primary;
+	font-size: 1.8rem;
+	letter-spacing: -0.015em;
+	text-align: left;
+	margin: 0;
+	// overflow-x: hidden;
+	// overflow-y: scroll;
+}
+
+section {
+	min-height: 80rem;
+}
+
+figure {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+
+// @supports ( font-variation-settings: normal ) {
+
+// 	body {
+//         font-family: $font-primary;
+//     }    
+// }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	word-break: break-word;
+	word-wrap: break-word;
+	margin: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+
+button, 
+input {
+	border: none;
+}
+
+#site-content {
+	overflow: hidden;
+}

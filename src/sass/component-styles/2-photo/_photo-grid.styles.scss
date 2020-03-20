@@ -1,0 +1,34 @@
+.photo__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: $color-white-2;
+  gap: 2rem;
+  height: 80%;
+  width: 100%;
+  align-self: center;
+  justify-self: flex-start !important;
+}
+
+.photo-row {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+
+  &--1 {
+    grid-template-columns: 3fr 3fr 4fr;
+    grid-template-rows: 100%;
+  }
+
+  &--2 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+  }
+
+  &--3 {
+    grid-template-columns: 2.5fr 5fr 2.5fr;
+    grid-template-rows: 100%;
+  }
+}
+

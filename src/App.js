@@ -1,26 +1,77 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+// import { Route, Switch, Redirect } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import MenuContainer from './components/2-menu/menu-container.component';
+import PhotoContainer from './components/1-photo/photo-container.component';
+import CategorySelector from './components/3-category/category-selector.component';
+
+import { ReactComponent as Logo } from './Icons/logo-icon.svg';
+
+import './sass/main.css'
+
+class App extends Component {
+
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      menuIsOpen: false,
+      gridIsOpen: false,
+      currCat: 'calories'
+    };
+  }
+  
+  toggleMenu = () => {
+    this.setState(st => ({ menuIsOpen: !st.menuIsOpen }))
+  }
+
+  toggleGrid = (evt) => {
+    let clickedCat = evt.target.getAttribute('name').toLowerCase();
+    console.log(clickedCat);
+    
+
+    if (clickedCat === 'calories') {
+      this.setState(st => ({ 
+        gridIsOpen: !st.gridIsOpen, 
+        currCat: clickedCat
+      }));
+    }
+  }
+
+  render() {
+    let { menuIsOpen, gridIsOpen, currCat } = this.state;
+    
+
+    if (menuIsOpen) {
+      return (
+        <div className='App'>
+          <MenuContainer
+            toggleGrid={this.toggleGrid}
+            menuIsOpen={menuIsOpen}
+            toggleMenu={this.toggleMenu}
+          />
+          <PhotoContainer
+            menuIsOpen={menuIsOpen}
+            gridIsOpen={gridIsOpen}
+            toggleMenu={this.toggleMenu}
+          />
+          <CategorySelector currCat={currCat} />
+        </div>
+      );
+    } else {
+      return (
+        <div className='App'>
+          <Logo className='site-logo--photo' />
+          <PhotoContainer
+            toggleMenu={this.toggleMenu}
+            menuIsOpen={menuIsOpen}
+          />
+        </div>
+      );
+    }
+
+    
+  }
 }
 
 export default App;
