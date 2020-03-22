@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { v4 as uuid } from 'uuid';
 
 import CategoryItem from './category-item.component';
 
@@ -21,7 +22,7 @@ class CategorySelector extends Component {
     return (
       <div className='category-selector'>
         {categories.map(cat => (
-          <CategoryItem currCat={currCat} changeCat={changeCat} name={cat.name.toLowerCase()}/>
+          <CategoryItem key={uuid()} currCat={currCat} changeCat={changeCat} name={cat.name.toLowerCase()}/>
         ))}
       </div>
     );

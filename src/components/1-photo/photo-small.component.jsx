@@ -2,10 +2,14 @@ import React, { Component } from 'react';
 
 class PhotoSmall extends Component {
   render() {
-    const { alt, src, key } = this.props;
+    const { alt, src, bgco } = this.props;
     
+    const plchColor = {
+      backgroundColor: bgco
+    }
+
     return (
-      <img className="photo--small" src={src} alt={alt} key={key} />
+      <img style={plchColor} className="photo--small" src={src} alt={alt} />
     );
   }
 }

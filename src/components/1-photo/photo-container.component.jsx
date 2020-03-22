@@ -1,54 +1,62 @@
 import React, { Component } from 'react';
 
-// import PhotoSingle from './photo-single.component';
 import PhotoSlider from './photo-slider.component';
-import PhotoGrid from './photo-grid.component';
+import LandGrid from './land-grid.component';
+import PortraitGrid from './portrait-grid.component';
+import SelectorSlider from './selector-slider.component';
 
-import { PHOTO_DATA } from '../../data-store/photos.data';
 
 class PhotoContainer extends Component {
 
-  constructor(props) {
-    super(props);
-
-    const photos = PHOTO_DATA.editorial.photos
-    
-    this.state = {
-      editLinks: [
-        photos.editTwo.link,
-        photos.editThree.link,
-        photos.editFour.link,
-        photos.editFive.link
-      ],
-      mainPhoto: photos.editTwo.link
-    };
+  handleClick = (evt) => {
+    this.props.changeCat(evt);
   }
+  
+  resize = () => {
+    const { currCat } = this.props;
+    let contSize;
 
-  handleClick = () => {
-    this.props.toggleMenu()
+    if (currCat !== undefined) {
+      contSize = currCat !== 'home' ? '78' : '85';
+    } else if (currCat === undefined) {
+      contSize = '100'
+    }    
+    return contSize;
   }
 
   render() {
-    let { menuIsOpen, gridIsOpen, currCat } = this.props;
+    let { currCat } = this.props;
+    this.resize();
+    // let fullPart = currCat !== undefined ? 'part' : 'full';
 
-    let fullPart = menuIsOpen ? 'part' : 'full';
-
-    if (gridIsOpen || currCat === 'calories' || currCat === 'portrait') {
-      return (
-        <div className={`photo-container photo-container--${fullPart}`}>
-          <PhotoGrid currCat={currCat} />
-        </div>
-      );
-    } else {
-      return (
-        <div
-          onClick={this.handleClick}
-          className={`photo-container photo-container--${fullPart}`}
-        >
-          <PhotoSlider />
-        </div>
-      );
-    }
+      if (currCat === 'home' || currCat === undefined) {
+        return (
+          <div
+            onClick={this.handleClick}
+            className={`photo-container photo-container--${this.resize()}`}
+          >
+            <PhotoSlider />
+          </div>
+        );
+      } else if (currCat === 'calories') {
+        return (
+          <div className={`photo-container photo-container--${this.resize()}`}>
+            <LandGrid currCat={currCat} />
+          </div>
+        );
+      } else if (currCat === 'portrait') {
+        return (
+          <div className={`photo-container photo-container--${this.resize()}`}>
+            <PortraitGrid currCat={currCat} />
+          </div>
+        )
+      } else if (currCat === 'dreams' || 'editorial') {
+        return (
+          <div className={`photo-container photo-container--${this.resize()}`}>
+            <SelectorSlider currCat={currCat} />
+          </div>
+        );
+      }
   }
 }
 

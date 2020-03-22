@@ -44,6 +44,7 @@ class PhotoSlider extends Component {
             src={photo.link}
             alt={photo.name}
             key={photo.name}
+            name='home'
           />
         ))}
       </Slider>

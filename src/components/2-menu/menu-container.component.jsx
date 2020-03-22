@@ -25,24 +25,21 @@ class MenuContainer extends Component {
   } 
 
   renderLinks = (list) => {
-    const { toggleGrid, changeCat } = this.props;
+    const { changeCat } = this.props;
 
-    return list.map(el => <CategoryLink changeCat={changeCat} toggleGrid={toggleGrid} key={uuid()} name={el.name} />);
+    return list.map(el => <CategoryLink changeCat={changeCat} key={uuid()} name={el.name} />);
   }
 
   handleLogoClick = (evt) => {
-    const { toggleGrid, toggleMenu, changeCat } = this.props;
-    // const logoEvt = evt.target.getAttribute('name');
-    
-    toggleGrid(evt);
-    toggleMenu();
+    const { changeCat } = this.props;
+
     changeCat(evt);
   }
   
   render() {
-    let { toggleMenu, menuIsOpen } = this.props;
+    let { currCat } = this.props;
 
-    let openClose = menuIsOpen ? 'open' : 'closed';
+    let openClose = currCat !== undefined ? 'open' : 'closed';
       
     return (
       <div className={`menu-container--${openClose}`}>

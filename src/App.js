@@ -16,26 +16,12 @@ class App extends Component {
     
     this.state = {
       menuIsOpen: false,
-      gridIsOpen: false,
-      currCat: ''
+      currCat: undefined
     };
   }
   
   toggleMenu = () => {
     this.setState(st => ({ menuIsOpen: !st.menuIsOpen }))
-  }
-
-  toggleGrid = (evt) => {
-    let clickedCat = evt.target.getAttribute('name').toLowerCase();
-    console.log(clickedCat);
-    
-
-    if (clickedCat === 'calories') {
-      this.setState(st => ({ 
-        gridIsOpen: !st.gridIsOpen, 
-        // currCat: clickedCat
-      }));
-    }
   }
 
   changeCat = (evt) => {
@@ -44,27 +30,32 @@ class App extends Component {
     this.setState({ currCat: clickedCat })
   }
 
+  renderSelector = () => {
+    const { currCat } = this.state; 
+
+    if (currCat !== 'home' && currCat !== undefined) {
+      return <CategorySelector changeCat={this.changeCat} currCat={currCat} />;
+    } else {
+      return null;
+    }
+  }
+
   render() {
-    let { menuIsOpen, gridIsOpen, currCat } = this.state;
+    let { menuIsOpen, currCat } = this.state;
     
 
-    if (menuIsOpen) {
+    if (currCat !== undefined) {
       return (
         <div className='App'>
           <MenuContainer
-            toggleGrid={this.toggleGrid}
-            menuIsOpen={menuIsOpen}
-            toggleMenu={this.toggleMenu}
+            currCat={currCat}
+            changeCat={this.changeCat}
+          />
+          <PhotoContainer
             changeCat={this.changeCat}
             currCat={currCat}
           />
-          <PhotoContainer
-            menuIsOpen={menuIsOpen}
-            gridIsOpen={gridIsOpen}
-            toggleMenu={this.toggleMenu}
-            currCat={currCat}
-          />
-          <CategorySelector changeCat={this.changeCat} currCat={currCat} />
+          {this.renderSelector()}
         </div>
       );
     } else {
@@ -74,6 +65,7 @@ class App extends Component {
           <PhotoContainer
             toggleMenu={this.toggleMenu}
             menuIsOpen={menuIsOpen}
+            changeCat={this.changeCat}
           />
         </div>
       );

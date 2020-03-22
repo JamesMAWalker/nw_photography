@@ -5,12 +5,17 @@
   transition: all .5s ease-out;
   background-color: $color-white-2;
   
-  &--full {
+  &--100 {
     width: 100%;
     height: 100vh;
   }
 
-  &--part {
+  &--85 {
+    width: 85%;
+    height: 100vh;
+  }
+
+  &--78 {
     width: 78%;
     height: 100vh;
   }

@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 class CategoryLink extends Component {
   
   handleClick = (evt) => {
-    const { toggleGrid, changeCat } = this.props;
-
-    toggleGrid(evt);
+    const { changeCat } = this.props;
+    
     changeCat(evt);
   }
 

@@ -4,36 +4,43 @@ export const PHOTO_DATA = {
            photos: {
              calOne: {
                name: 'blue_flower_fish',
+               bgco: '#0054DE',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911193/NW_Photography/blue_flower_fish_bruhbz.jpg'
              },
              calTwo: {
                name: 'onions_on_stone',
+               bgco: '#9A4372',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/bokeh_onions_stone_bwz0yk.jpg'
              },
              calThree: {
                name: 'ribs_red_bg',
+               bgco: '#C13214',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613209/NW_Photography/bokeh_ribz_apnfcw.jpg'
              },
              calFour: {
                name: 'friendly_omelette',
+               bgco: '#D5B876',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613210/NW_Photography/friendly_omelette_wzgsgz.jpg'
              },
              calFive: {
                name: 'meats_on_meats',
+               bgco: '#6C3412',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613210/NW_Photography/hella_meat_m6iwms.jpg'
              },
              calSix: {
                name: 'meat_flowers',
+               bgco: '#F8E300',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613321/NW_Photography/meat_and_petals_ukhnbw.jpg'
              },
              calSeven: {
                name: 'la_wrap',
+               bgco: '#93C666',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613210/NW_Photography/santamonica_wrap_sfhiqs.jpg',
                linkMed:
@@ -41,14 +48,16 @@ export const PHOTO_DATA = {
              },
              calEight: {
                name: 'the_BEET',
+               bgco: '#D41880',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/the_BEET_ylavee.jpg'
              },
              calNine: {
                name: 'splatter_food',
+               bgco: '#3A4045',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/splatter_food_v9mzd6.jpg'
-             },
+             }
            }
          },
          portrait: {
