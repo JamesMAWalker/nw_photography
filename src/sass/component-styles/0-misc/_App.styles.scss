@@ -4,43 +4,4 @@
   width: 100%;
 }
 
-.category {
-
-  &-selector {
-    height: 100%;
-    width: 7%;
-    background-color: $color-white-1;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  &__name {
-    text-transform: lowercase;
-    font-size: 3rem;
-    transform: rotate(90deg);
-    width: 250%;
-    text-align: center;
-    letter-spacing: 2px;
-    cursor: pointer;
-
-    &--active {
-      color: $color-black;
-      font-weight: 400;
-
-      &::before {
-        content: '[';
-        font-weight: bold;
-        margin: 0 5px;
-      }
-
-      &::after {
-        content: ']';
-        font-weight: bold;
-        margin: 0 5px;
-      }
-    }
-  }  
-}
 

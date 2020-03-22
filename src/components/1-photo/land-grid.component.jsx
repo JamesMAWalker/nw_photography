@@ -14,7 +14,6 @@ class LandGrid extends Component {
     }
   }
   
-
   render() {
     const { calories } = this.state;
     const { currCat } = this.props;

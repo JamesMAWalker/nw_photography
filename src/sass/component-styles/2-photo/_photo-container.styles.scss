@@ -4,6 +4,7 @@
   justify-content: start;
   transition: all .5s ease-out;
   background-color: $color-white-2;
+  z-index: 2;
   
   &--100 {
     width: 100%;
