@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class CategoryItem extends Component {
 
-  handleClick = () => {
+  handleClick = (evt) => {
     let {name, changeCat} = this.props;
-
-    changeCat(name);
+    
+    changeCat(evt);
   }
 
   render() {
@@ -13,7 +13,7 @@ class CategoryItem extends Component {
     let activate = currCat === name ? 'category__name--active' : '';
   
     return (
-      <span onClick={this.handleClick} className={`category__name ${activate}`}>{name}</span>
+      <span onClick={this.handleClick} name={name} className={`category__name ${activate}`}>{name}</span>
     );
   }
 }

@@ -25,14 +25,18 @@ class MenuContainer extends Component {
   } 
 
   renderLinks = (list) => {
-    return list.map(el => <CategoryLink toggleGrid={this.props.toggleGrid} key={uuid()} name={el.name} />);
+    const { toggleGrid, changeCat } = this.props;
+
+    return list.map(el => <CategoryLink changeCat={changeCat} toggleGrid={toggleGrid} key={uuid()} name={el.name} />);
   }
 
   handleLogoClick = (evt) => {
-    const { toggleGrid, toggleMenu } = this.props;
-
+    const { toggleGrid, toggleMenu, changeCat } = this.props;
+    // const logoEvt = evt.target.getAttribute('name');
+    
     toggleGrid(evt);
     toggleMenu();
+    changeCat(evt);
   }
   
   render() {
@@ -42,7 +46,7 @@ class MenuContainer extends Component {
       
     return (
       <div className={`menu-container--${openClose}`}>
-        <Logo onClick={this.handleLogoClick} className='site-logo--menu'/>
+        <Logo name="home" onClick={this.handleLogoClick} className='site-logo--menu'/>
         <div className='links__container'>
           {this.renderLinks(this.state.photoData)}
           <div className='menu-divider'></div>

@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class CategoryLink extends Component {
   
   handleClick = (evt) => {
-    this.props.toggleGrid(evt)
+    const { toggleGrid, changeCat } = this.props;
+
+    toggleGrid(evt);
+    changeCat(evt);
   }
 
   render() {

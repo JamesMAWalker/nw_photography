@@ -29,14 +29,14 @@ class PhotoContainer extends Component {
   }
 
   render() {
-    let { menuIsOpen, gridIsOpen } = this.props;
+    let { menuIsOpen, gridIsOpen, currCat } = this.props;
 
     let fullPart = menuIsOpen ? 'part' : 'full';
 
-    if (gridIsOpen) {
+    if (gridIsOpen || currCat === 'calories' || currCat === 'portrait') {
       return (
         <div className={`photo-container photo-container--${fullPart}`}>
-          <PhotoGrid />
+          <PhotoGrid currCat={currCat} />
         </div>
       );
     } else {

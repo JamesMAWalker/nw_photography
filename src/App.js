@@ -39,9 +39,9 @@ class App extends Component {
   }
 
   changeCat = (evt) => {
-    // let clickedCat = evt.target.getAttribute('name').toLowerCase();
+    let clickedCat = evt.target.getAttribute('name').toLowerCase();
 
-    this.setState({ currCat: evt })
+    this.setState({ currCat: clickedCat })
   }
 
   render() {
@@ -55,11 +55,14 @@ class App extends Component {
             toggleGrid={this.toggleGrid}
             menuIsOpen={menuIsOpen}
             toggleMenu={this.toggleMenu}
+            changeCat={this.changeCat}
+            currCat={currCat}
           />
           <PhotoContainer
             menuIsOpen={menuIsOpen}
             gridIsOpen={gridIsOpen}
             toggleMenu={this.toggleMenu}
+            currCat={currCat}
           />
           <CategorySelector changeCat={this.changeCat} currCat={currCat} />
         </div>

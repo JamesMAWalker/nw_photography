@@ -17,6 +17,7 @@ class PhotoGrid extends Component {
 
   render() {
     const { calories } = this.state;
+    const { currCat } = this.props;
 
     let row1 = calories.slice(0,3);
     let row2 = calories.slice(3,6);
@@ -24,40 +25,46 @@ class PhotoGrid extends Component {
 
     
 
-    return (
-      <div className='photo__grid'>
-        <div className='photo-row photo-row--1'>
-          {row1.map(cal => (
-            <PhotoSmall
-              className='photo--small'
-              alt={cal.name}
-              src={cal.link}
-              key={uuid()}
-            />
-          ))}
+    if (currCat === 'calories') {
+      return (
+        <div className='photo__grid'>
+          <div className='photo-row photo-row--1'>
+            {row1.map(cal => (
+              <PhotoSmall
+                className='photo--small'
+                alt={cal.name}
+                src={cal.link}
+                key={uuid()}
+              />
+            ))}
+          </div>
+          <div className='photo-row photo-row--2'>
+            {row2.map(cal => (
+              <img
+                className='photo--small'
+                alt={cal.name}
+                src={cal.link}
+                key={uuid()}
+              />
+            ))}
+          </div>
+          <div className='photo-row photo-row--3'>
+            {row3.map(cal => (
+              <img
+                className='photo--small'
+                alt={cal.name}
+                src={cal.link}
+                key={uuid()}
+              />
+            ))}
+          </div>
         </div>
-        <div className='photo-row photo-row--2'>
-          {row2.map(cal => (
-            <img
-              className='photo--small'
-              alt={cal.name}
-              src={cal.link}
-              key={uuid()}
-            />
-          ))}
-        </div>
-        <div className='photo-row photo-row--3'>
-          {row3.map(cal => (
-            <img
-              className='photo--small'
-              alt={cal.name}
-              src={cal.link}
-              key={uuid()}
-            />
-          ))}
-        </div>
-      </div>
-    );
+      );
+    } else if (currCat === 'portrait') {
+      return (
+        <h1>Portrait Grid</h1>
+      )
+    }
   }
 }
 

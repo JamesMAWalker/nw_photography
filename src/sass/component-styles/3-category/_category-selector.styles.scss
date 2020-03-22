@@ -3,7 +3,7 @@
   &-selector {
     height: 100%;
     width: 7%;
-    background-color: $color-white-1;
+    background-color: $color-white-2;
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
@@ -14,6 +14,7 @@
   &__name {
     text-transform: lowercase;
     font-size: 3rem;
+    font-weight: 200;
     transform: rotate(90deg);
     width: 250%;
     text-align: center;
