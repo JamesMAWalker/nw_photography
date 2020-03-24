@@ -43,7 +43,11 @@ class MenuContainer extends Component {
       
     return (
       <div className={`menu-container--${openClose}`}>
-        <Logo name="home" onClick={this.handleLogoClick} className='site-logo--menu'/>
+        <Logo
+          name='home'
+          onClick={this.handleLogoClick}
+          className='site-logo--menu'
+        />
         <div className='links__container'>
           {this.renderLinks(this.state.photoData)}
           <div className='menu-divider'></div>
@@ -53,9 +57,15 @@ class MenuContainer extends Component {
         </div>
 
         <div className='icons__container'>
-          <InstaIcon className='social-icon' />
-          <BehanceIcon className='social-icon' />
-          <FHPXIcon className='social-icon' />
+          <a target='_blank' href='https://www.instagram.com/nishellewalkerphotography/'>
+            <InstaIcon className='social-icon' />
+          </a>
+          <a>
+            <BehanceIcon className='social-icon' />
+          </a>
+          <a>
+            <FHPXIcon className='social-icon' />
+          </a>
         </div>
         <p className='copyright'>NishelleWalkerPhotography &copy;2020</p>
       </div>

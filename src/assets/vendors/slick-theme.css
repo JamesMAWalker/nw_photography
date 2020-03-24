@@ -10,18 +10,17 @@
 {
     font-size: 0;
     line-height: 0;
-
+    opacity: .6;
     position: absolute;
-    top: 50%;
 
     display: none !important;
 
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 40px;
     padding: 0;
-    -webkit-transform: translate(0, -50%);
+    /* -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    transform: translate(0, -50%); */
 
     cursor: pointer;
 
@@ -35,9 +34,7 @@
 .slick-next:hover,
 .slick-next:focus
 {
-    color: transparent;
-    outline: none;
-    background: transparent;
+   opacity: .6 !important;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -68,11 +65,11 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 100px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 40px;
     left: auto;
 }
 .slick-prev:before
@@ -83,10 +80,13 @@
 {
     content: '→';
 }
+.slick-prev:hover {
+    transform: translateX(-5px);
+}
 
 .slick-next
 {
-    right: -25px;
+    right: 60px;
 }
 [dir='rtl'] .slick-next
 {
@@ -95,11 +95,14 @@
 }
 .slick-next:before
 {
-    content: '→';
+    /* content: '→'; */
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    /* content: '←'; */
+}
+.slick-next:hover {
+    transform: translateX(5px);
 }
 
 /* Dots */

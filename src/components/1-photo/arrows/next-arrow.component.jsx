@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Slider from 'react-slick';
+import { ReactComponent as NextArr } from '../../../Icons/shadow-arr-R.svg';
 
 export default function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
+    <NextArr
       className={className}
-      style={{ ...style, display: 'block', background: 'red' }}
+      style={{ ...style, display: 'block' }}
       onClick={onClick}
     />
   );

@@ -206,9 +206,9 @@ input {
           justify-content: start;
   width: 40%;
   position: relative;
-  height: 1px;
-  width: 20px;
-  background-color: grey;
+  height: 2px;
+  width: 40px;
+  background-color: #C9C9C9;
   margin-left: 1px;
 }
 
@@ -436,6 +436,25 @@ input {
 .selector__slider slick-active,
 .selector__slider slick-current div {
   width: 78vw !important;
+}
+
+.selector__slider.slick-prev,
+.selector__slider .slick-next,
+.selector__slider .slick-arrow {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 9;
+  bottom: 7%;
+  opacity: .3;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .selector__photo {
