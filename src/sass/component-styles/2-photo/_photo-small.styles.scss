@@ -1,8 +1,16 @@
 .photo--small {
   @include normalShadow;
-
+  position: relative;
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
+  transition: all .2s;
+
+  &:active {
+    grid-row: 1 / span all;
+    grid-column: 1 / span all;
+    transition: all .5s;
+    transform: scale(.9);
+  }
 }

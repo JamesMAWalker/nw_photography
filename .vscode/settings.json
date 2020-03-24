@@ -1,0 +1,17 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/src/sass"
+    }
+  ],
+  "liveSassCompile.settings.includeItems": [
+    "/vxx-2020-refactor/src/sass/main.scss",
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    "/nw_photography/src/sass/base-styles/**",
+    "/nw_photography/src/sass/component-styles/**",
+  ],
+}

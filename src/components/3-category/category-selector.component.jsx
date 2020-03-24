@@ -22,7 +22,7 @@ class CategorySelector extends Component {
     return (
       <div className='category-selector'>
         {categories.map(cat => (
-          <CategoryItem key={uuid()} currCat={currCat} changeCat={changeCat} name={cat.name.toLowerCase()}/>
+          <CategoryItem key={uuid()} currCat={currCat} indPos={`category__item--${categories.indexOf(cat) + 1}`} changeCat={changeCat} name={cat.name.toLowerCase()}/>
         ))}
       </div>
     );

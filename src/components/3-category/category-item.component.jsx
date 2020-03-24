@@ -9,11 +9,13 @@ class CategoryItem extends Component {
   }
 
   render() {
-    const { currCat, name } = this.props;
-    let activate = currCat === name ? 'category__name--active' : '';
+    const { currCat, name, indPos } = this.props;
+    let activate = currCat === name ? 'category__item--active' : '';
+    console.log(indPos);
+    
   
     return (
-      <span onClick={this.handleClick} name={name} className={`category__name ${activate}`}>{name}</span>
+      <span onClick={this.handleClick} name={name} className={`category__item ${activate} ${indPos}`}>{name}</span>
     );
   }
 }

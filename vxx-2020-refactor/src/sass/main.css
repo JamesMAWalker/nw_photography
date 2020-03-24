@@ -18,8 +18,6 @@ html {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: all .2s;
-  transition: all .2s;
 }
 
 html::-webkit-scrollbar {
@@ -260,9 +258,9 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
   background-color: #fdfdfd;
@@ -317,8 +315,6 @@ input {
   -ms-grid-row-align: center;
       align-self: center;
   justify-self: flex-start !important;
-  -webkit-transition: all .2s;
-  transition: all .2s;
 }
 
 .land__row {
@@ -327,8 +323,6 @@ input {
   gap: 1rem;
   width: 100%;
   height: 100%;
-  -webkit-transition: all .2s;
-  transition: all .2s;
 }
 
 .land__row--1 {
@@ -352,11 +346,6 @@ input {
       grid-template-rows: 100%;
 }
 
-.land__row:active {
-  grid-row: 1 / span all;
-  grid-column: 1 / span all;
-}
-
 .portrait__grid {
   display: -ms-grid;
   display: grid;
@@ -369,8 +358,7 @@ input {
   height: 80%;
   -ms-grid-row-align: center;
       align-self: center;
-  -ms-grid-column-align: center !important;
-      justify-self: center !important;
+  justify-self: flex-start !important;
   background-color: #fdfdfd;
 }
 
@@ -406,24 +394,12 @@ input {
 .photo--small {
   -webkit-box-shadow: 2px 2px 13px 0px #545454;
           box-shadow: 2px 2px 13px 0px #545454;
-  position: relative;
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-}
-
-.photo--small:active {
-  grid-row: 1 / span all;
-  grid-column: 1 / span all;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
 }
 
 .photo--large {
@@ -497,77 +473,46 @@ input {
   height: 100%;
   width: 7%;
   background-color: #fdfdfd;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
-  -ms-grid-columns: 100%;
-      grid-template-columns: 100%;
-}
-
-.category__item {
-  text-transform: lowercase;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.category__name {
+  text-transform: lowercase;
   font-size: 3rem;
   font-weight: 200;
-  -webkit-transform: translateX(-10rem) rotate(90deg);
-          transform: translateX(-10rem) rotate(90deg);
-  width: 100%;
-  height: 100%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 250%;
   text-align: center;
   letter-spacing: 2px;
 }
 
-.category__item--1 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1 / 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1 / 2;
-}
-
-.category__item--2 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2 / 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1 / 2;
-}
-
-.category__item--3 {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3 / 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1 / 2;
-}
-
-.category__item--4 {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  grid-row: 4 / 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1 / 2;
-}
-
-.category__item--active {
+.category__name--active {
   color: black;
   font-weight: 400;
 }
 
-.category__item--active::before {
+.category__name--active::before {
   content: '[';
   font-weight: bold;
   margin: 0 5px;
 }
 
-.category__item--active::after {
+.category__name--active::after {
   content: ']';
   font-weight: bold;
   margin: 0 5px;
