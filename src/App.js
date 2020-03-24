@@ -5,7 +5,7 @@ import MenuContainer from './components/2-menu/menu-container.component';
 import PhotoContainer from './components/1-photo/photo-container.component';
 import CategorySelector from './components/3-category/category-selector.component';
 
-import { ReactComponent as Logo } from './Icons/logo-icon.svg';
+import { ReactComponent as Logo } from './Icons/logo-icon-shadow.svg';
 
 import './sass/main.css'
 
