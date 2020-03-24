@@ -3,7 +3,13 @@ import React, { Component } from 'react';
 class PhotoSmall extends Component {
   
   adjustCrop = name => {
-    return name === 'the_BEET' ? '0 75%' : 'center';
+    if (name === 'the_BEET') {
+      return '0 75%'
+    } else if (name === 'glasses_man') {
+      return 'top'  
+    } else {
+      return 'center'
+    }
   };  
 
   render() {

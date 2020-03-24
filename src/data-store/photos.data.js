@@ -64,42 +64,49 @@ export const PHOTO_DATA = {
            name: 'Portrait',
            photos: {
              portOne: {
-               name: 'dance_girl',
-               link: 'photo.url'
+               name: 'glasses_man',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/glasses-man_lbhu74.jpg'
              },
              portTwo: {
-               name: 'dog_hat',
-               link: 'photo.url'
+               name: 'intense_girl',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/intense_girl_ejzhbr.jpg'
              },
              portThree: {
-               name: 'dreads_girl',
-               link: 'photo.url'
+               name: 'office_girl',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032887/NW_Photography/office-girl_iz4q4f.jpg'
              },
              portFour: {
+               name: 'dreads_girl',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/dreads_girl_cvupsr.jpg'
+             },
+             portFive: {
+               name: 'dog_hat',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032940/NW_Photography/dog-hat_tk7w9b.jpg'
+             },
+             portSix: {
                name: 'white_black_girl',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/girl-white-black_ydcb6a.jpg'
              },
-             portFive: {
-               name: 'intense_girl',
-               link: 'photo.url'
-             },
-             portSix: {
-               name: 'shyla_girl',
-               link: 'photo.url'
-             },
              portSeven: {
                name: 'teeth_girl',
-               link: 'photo.url'
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/teeth_girl_pp605a.jpg'
              },
              portEight: {
-               name: 'office_girl',
-               link: 'photo.url'
+               name: 'shyla_girl',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/shyla-shadow-left_h8ictv.jpg'
              },
              portNine: {
-               name: 'glasses_man',
+               name: 'dance_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/glasses-man_lbhu74.jpg'
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032887/NW_Photography/dance-girl_egjmwm.jpg'
              }
            }
          },
