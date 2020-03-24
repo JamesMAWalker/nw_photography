@@ -1,0 +1,38 @@
+.selector {
+  
+  &__slider {
+    @include normalShadow;
+
+    height: 80%;
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+
+    &.slick-slide,
+    slick-active,
+    slick-current div {
+      width: 78vw !important;
+    }
+
+    // Use arrows in this component
+    // &.slick-prev,
+    // .slick-next {
+    //   display: block !important;
+    // }
+  }
+
+  &__photo {
+    object-fit: cover;
+    // object-position: 0 95%;
+    width: 78vw !important;
+    height: 80vh;
+
+    &--50 {
+      object-position: 0 50%;
+    }
+  }
+}
+
+
+

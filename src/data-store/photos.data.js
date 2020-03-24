@@ -12,13 +12,13 @@ export const PHOTO_DATA = {
                name: 'onions_on_stone',
                bgco: '#9A4372',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/bokeh_onions_stone_bwz0yk.jpg'
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911192/NW_Photography/bokeh_onions_stone_bwz0yk.jpg'
              },
              calThree: {
                name: 'ribs_red_bg',
                bgco: '#C13214',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613209/NW_Photography/bokeh_ribz_apnfcw.jpg'
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1584613209/NW_Photography/bokeh_ribz_apnfcw.jpg'
              },
              calFour: {
                name: 'friendly_omelette',
@@ -113,35 +113,35 @@ export const PHOTO_DATA = {
          dreams: {
            name: 'Dreams',
            photos: {
-             dreamOne: {
-               name: 'cartographer',
-               link: 'photo.url'
-             },
+            //  dreamOne: {
+            //    name: 'cartographer',
+            //    link:
+            //      'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585044609/NW_Photography/cartographer_xxregx.jpg'
+            //  },
              dreamTwo: {
                name: 'fireflies',
-               link: 'photo.url'
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585044610/NW_Photography/fireflies_mjfg3p.jpg'
              },
              dreamThree: {
                name: 'float',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/float_right_to3zwv.jpg'
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911192/NW_Photography/float_right_to3zwv.jpg'
              },
              dreamFour: {
-               name: 'running_man',
-               link: 'photo.url'
+               name: 'teddy_song',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585044610/NW_Photography/teddy_song_aekoa1.jpg'
              },
              dreamFive: {
-               name: 'teddy_song',
-               link: 'photo.url'
-             },
-             dreamSix: {
                name: 'the_vvitch',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/the_vvitch_fcfwmp.jpg'
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911194/NW_Photography/the_vvitch_fcfwmp.jpg'
              },
-             dreamSeven: {
+             dreamSix: {
                name: 'day_dream',
-               link: 'photo.url'
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585044609/NW_Photography/worker_day_dream_z3wb6x.jpg'
              }
            }
          },

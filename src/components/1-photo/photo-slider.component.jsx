@@ -11,14 +11,6 @@ class PhotoSlider extends Component {
       editorials: Object.values(PHOTO_DATA.editorial.photos)
     };
   }
-
-  // componentDidMount() {
-  //   this.play();    
-  // }
-
-  // play = () => {
-  //   this.slider.slickPlay();
-  // }
   
   render() {
     const settings = {

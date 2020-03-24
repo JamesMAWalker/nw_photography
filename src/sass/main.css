@@ -402,6 +402,54 @@ input {
      object-position: center;
 }
 
+.photo--large {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 78vw !important;
+  height: 80vh;
+}
+
+.photo--large--50 {
+  -o-object-position: 0 50%;
+     object-position: 0 50%;
+}
+
+.photo--large--33 {
+  -o-object-position: 0 33%;
+     object-position: 0 33%;
+}
+
+.selector__slider {
+  -webkit-box-shadow: 2px 2px 13px 0px #545454;
+          box-shadow: 2px 2px 13px 0px #545454;
+  height: 80%;
+  width: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.selector__slider.slick-slide,
+.selector__slider slick-active,
+.selector__slider slick-current div {
+  width: 78vw !important;
+}
+
+.selector__photo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 78vw !important;
+  height: 80vh;
+}
+
+.selector__photo--50 {
+  -o-object-position: 0 50%;
+     object-position: 0 50%;
+}
+
 .category-selector {
   height: 100%;
   width: 7%;

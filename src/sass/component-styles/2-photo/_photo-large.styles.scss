@@ -1,0 +1,13 @@
+.photo--large {
+    object-fit: cover;
+    width: 78vw !important;
+    height: 80vh;
+
+    &--50 {
+      object-position: 0 50%;
+    }
+
+    &--33 {
+      object-position: 0 33%;
+    }
+}

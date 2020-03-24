@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { v4 as uuid } from 'uuid';
+import Slider from 'react-slick';
 
 import { PHOTO_DATA } from '../../data-store/photos.data';
+import PhotoLarge from './photo-large.component';
+import NextArrow from './arrows/next-arrow.component';
+import PrevArrow from './arrows/prev-arrow.component';
 
 class SelectorSlider extends Component {
 
@@ -19,14 +23,29 @@ class SelectorSlider extends Component {
     const { currCat } = this.props;
     const { [currCat]: cat } = this.state;
 
+    const settings = {
+      fade: true,
+      infinite: true,
+      speed: 1500,
+      slidesToShow: 1,
+      slidesToScroll: 4,
+      pauseOnHover: false,
+      slidesToScroll: 1,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />
+    };
+
     return (
-      <div className="selector-slider">
+      <Slider className="selector__slider" {...settings}>
         {
           cat.map(photo => (
-            <img key={uuid()} src={photo.link} alt={photo.name} className="photo--small"/>
+            <PhotoLarge 
+              key={uuid()} 
+              src={photo.link} 
+              alt={photo.name}/>
           ))
         }
-      </div>
+      </Slider>
     );
   }
 }
