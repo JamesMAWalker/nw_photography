@@ -19,9 +19,9 @@ class MenuContainer extends Component {
         PHOTO_DATA.calories,
         PHOTO_DATA.portrait,
         PHOTO_DATA.dreams,
-        PHOTO_DATA.editorial
+        PHOTO_DATA.editorial, 
       ]
-    }; 
+    };  
   } 
 
   renderLinks = (list) => {

@@ -8,7 +8,7 @@ class PhotoSlider extends Component {
     super(props);
     
     this.state = {
-      editorials: Object.values(PHOTO_DATA.editorial.photos)
+      coverPhotos: Object.values(PHOTO_DATA.coverPhotos.photos)
     };
   }
   
@@ -30,7 +30,7 @@ class PhotoSlider extends Component {
         className='photo-slider'
         {...settings}
       >
-        {this.state.editorials.map(photo => (
+        {this.state.coverPhotos.map(photo => (
           <img
             className='photo-single'
             src={photo.link}

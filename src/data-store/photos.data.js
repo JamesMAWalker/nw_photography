@@ -113,11 +113,11 @@ export const PHOTO_DATA = {
          dreams: {
            name: 'Dreams',
            photos: {
-            //  dreamOne: {
-            //    name: 'cartographer',
-            //    link:
-            //      'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585044609/NW_Photography/cartographer_xxregx.jpg'
-            //  },
+             //  dreamOne: {
+             //    name: 'cartographer',
+             //    link:
+             //      'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585044609/NW_Photography/cartographer_xxregx.jpg'
+             //  },
              dreamTwo: {
                name: 'fireflies',
                link:
@@ -148,31 +148,91 @@ export const PHOTO_DATA = {
          editorial: {
            name: 'Editorial',
            photos: {
-             calNine: {
-               name: 'the_BEET',
+             spreadOne: {
+               name: 'afolabi-1',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/the_BEET_ylavee.jpg'
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231764/NW_Photography/Editorial_Afolabi-1_to9sds.png'
+                },
+             spreadTwo: {
+               name: 'afolabi-2',
+               link:
+               'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231763/NW_Photography/Editorial_Afolabi-2_podhb1.png'
+              },
+              spreadThree: {
+                name: 'law_lady',
+                link:
+                'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231758/NW_Photography/Editorial_Jesyka_Law_doipdc.png'
+              },
+              spreadFour: {
+                name: 'hat_man-1',
+                link:
+                'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231756/NW_Photography/Ediorial_Singer-2_s7j8zp.png'
+              },
+              spreadFive: {
+               name: 'hat_man-2',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231756/NW_Photography/Ediorial_Singer-1_gpvlfz.png'
+                },
+                spreadSix: {
+               name: 'doc_camino-1',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231757/NW_Photography/Ediorial_Dr.Bob-1_qnkg6q.png'
              },
-             editTwo: {
-               name: 'balloons',
+             spreadSeven: {
+               name: 'doc_camino-2',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/girl_balloons_czjm9c.jpg'
+               'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231758/NW_Photography/Ediorial_Dr.Bob-2_ynfkmu.png'
              },
-             editThree: {
-               name: 'white_black_girl',
+             spreadeight: {
+               name: 'pink_dancer',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/girl-white-black_ydcb6a.jpg'
-             },
-             editFour: {
-               name: 'running_man',
-               link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911193/NW_Photography/running_man_ptei0j.jpg'
-             },
-             editFive: {
-               name: 'splatter_food',
-               link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/splatter_food_v9mzd6.jpg'
-             }
-           }
-         }
+               'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231760/NW_Photography/Editorial_LizLira_Dance_fqn7mj.png'
+              },
+              spreadNine: {
+                name: 'antonia',
+                link:
+                'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231757/NW_Photography/Editorial_Antonia_p9si2f.png'
+              },
+              spreadTen: {
+                name: 'sheuhz-1',
+                link:
+                'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231759/NW_Photography/Editorial_JM_Dance-1_ngkfrn.png'
+              },
+              spreadEleven: {
+                name: 'sheuhz-2',
+                link:
+                'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231758/NW_Photography/Editorial_JM_Dance-2_yjzkze.jpg'
+              }
+            }
+          },
+          coverPhotos: {
+            name: 'coverPhotos',
+            photos: {
+              calNine: {
+                name: 'the_BEET',
+                link:
+                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/the_BEET_ylavee.jpg'
+              },
+              editTwo: {
+                name: 'balloons',
+                link:
+                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/girl_balloons_czjm9c.jpg'
+              },
+              editThree: {
+                name: 'white_black_girl',
+                link:
+                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/girl-white-black_ydcb6a.jpg'
+              },
+              editFour: {
+                name: 'running_man',
+                link:
+                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911193/NW_Photography/running_man_ptei0j.jpg'
+              },
+              editFive: {
+                name: 'splatter_food',
+                link:
+                  'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/splatter_food_v9mzd6.jpg'
+              }
+            }
+          },
        };

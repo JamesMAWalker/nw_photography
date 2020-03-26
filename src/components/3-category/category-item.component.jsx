@@ -11,11 +11,15 @@ class CategoryItem extends Component {
   render() {
     const { currCat, name, indPos } = this.props;
     let activate = currCat === name ? 'category__item--active' : '';
-    console.log(indPos);
+    let removeCat = name === 'coverphotos' ? 'none' : 'flex';
     
-  
+    let style = {
+      display: removeCat
+    }
+    
+    // TODO: Try to create a movable indicator. Explore options for movement other than grid cells
     return (
-      <span onClick={this.handleClick} name={name} className={`category__item ${activate} ${indPos}`}>{name}</span>
+      <span onClick={this.handleClick} name={name} style={style} className={`category__item ${activate} ${indPos}`}>{name}</span>
     );
   }
 }

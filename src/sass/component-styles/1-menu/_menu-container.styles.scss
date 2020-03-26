@@ -41,11 +41,11 @@
 }
 
 .category__link:hover {
-  color: rgb(73, 73, 73);
+  color: $color-grey-dark-3;
 }
 
 .category__link:active {
-  color: rgb(5, 5, 5);
+  color: $color-black;
 }
 
 .menu-divider {

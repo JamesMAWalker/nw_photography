@@ -24,13 +24,14 @@ class SelectorSlider extends Component {
     const { [currCat]: cat } = this.state;
 
     const settings = {
-      fade: true,
+      fade: currCat === 'dreams' ? true : false,
       infinite: true,
       speed: 1500,
       slidesToShow: 1,
       slidesToScroll: 4,
       pauseOnHover: false,
       slidesToScroll: 1,
+      swipeToSlide: true,
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />
     };
