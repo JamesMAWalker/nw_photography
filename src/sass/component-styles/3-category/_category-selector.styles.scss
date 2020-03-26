@@ -16,9 +16,9 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: 200;
-    transform: translateX(-10rem) rotate(90deg);
-    width: 135%;
-    height: 126%;
+    writing-mode: vertical-lr;
+    justify-content: center;  
+    align-items: center;
     text-align: center;
     letter-spacing: 2px;
 
