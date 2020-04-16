@@ -5,7 +5,7 @@ class CategoryLink extends Component {
   handleClick = (evt) => {
     const { changeCat } = this.props;
     
-    changeCat(evt);
+    changeCat(`/${evt.target.getAttribute('name').toLowerCase()}`);
   }
 
   render() {

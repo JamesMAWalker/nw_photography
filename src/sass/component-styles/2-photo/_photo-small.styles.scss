@@ -7,10 +7,18 @@
   object-position: center;
   transition: all .2s;
 
+  &:hover {
+    transform: scale(1.05);
+    z-index: 99;
+  }
+
   &:active {
     grid-row: 1 / span all;
     grid-column: 1 / span all;
     transition: all .5s;
     transform: scale(.9);
+    object-fit: cover !important;
+
+    backdrop-filter: blur(0.8);
   }
 }

@@ -13,4 +13,10 @@
   padding: 1rem;
   z-index: 99;
   fill: #c9c9c9;
+  cursor: pointer;
+  
+  &:hover {
+    fill: rgb(100, 100, 100);
+    transition: all .2s;
+  }
 }

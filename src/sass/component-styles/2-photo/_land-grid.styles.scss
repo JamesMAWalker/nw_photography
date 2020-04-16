@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: $color-white-2;
+    // background-color: $color-white-2;
+    background-color: transparent;
     gap: 2rem;
     height: 80%;
     width: 100%;

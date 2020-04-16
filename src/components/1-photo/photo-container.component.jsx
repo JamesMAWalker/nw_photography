@@ -8,9 +8,6 @@ import SelectorSlider from './selector-slider.component';
 
 class PhotoContainer extends Component {
 
-  handleClick = (evt) => {
-    this.props.changeCat(evt);
-  }
   
   resize = () => {
     const { currCat } = this.props;
@@ -25,14 +22,11 @@ class PhotoContainer extends Component {
   }
 
   render() {
-    let { currCat } = this.props;
-    this.resize();
-    // let fullPart = currCat !== undefined ? 'part' : 'full';
+    let { currCat, prevState } = this.props;
 
       if (currCat === 'home' || currCat === undefined) {
         return (
           <div
-            onClick={this.handleClick}
             className={`photo-container photo-container--${this.resize()}`}
           >
             <PhotoSlider />
@@ -53,7 +47,7 @@ class PhotoContainer extends Component {
       } else if (currCat === 'dreams' || 'editorial') {
         return (
           <div className={`photo-container photo-container--${this.resize()}`}>
-            <SelectorSlider currCat={currCat} />
+            <SelectorSlider currCat={currCat} prevState={prevState} />
           </div>
         );
       }

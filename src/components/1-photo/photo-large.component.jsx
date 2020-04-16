@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 
 class PhotoLarge extends Component {
   
@@ -10,16 +11,19 @@ class PhotoLarge extends Component {
     }
   };
 
+  handleClick = () => {
+    const { catID, photoID, history } = this.props;
+    history.push(`/${catID}/${photoID}`);
+  }
+
   render() {
     const { alt, src, key } = this.props;
 
     const photoPos = this.adjustCrop(alt);
 
-    console.log(photoPos);
-    
-
     return (
       <img
+        onClick={this.handleClick}
         key={key}
         src={src}
         alt={alt}
@@ -29,4 +33,4 @@ class PhotoLarge extends Component {
   }
 }
 
-export default PhotoLarge;
+export default withRouter(PhotoLarge);

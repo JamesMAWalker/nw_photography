@@ -20,8 +20,11 @@ class SelectorSlider extends Component {
   
 
   render() {
-    const { currCat } = this.props;
+    const { currCat, prevState } = this.props;
     const { [currCat]: cat } = this.state;
+
+    console.log(prevState);
+    // TODO: Passed in previous photo identifiers. Just need to correlate them to the dispalyed photo somehow. 
 
     const settings = {
       fade: currCat === 'dreams' ? true : false,
@@ -41,6 +44,8 @@ class SelectorSlider extends Component {
         {
           cat.map(photo => (
             <PhotoLarge 
+              catID={currCat}
+              photoID={photo.name}
               key={uuid()} 
               src={photo.link} 
               alt={photo.name}/>

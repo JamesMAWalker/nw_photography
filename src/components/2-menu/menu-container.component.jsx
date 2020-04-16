@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
+import { withRouter } from 'react-router-dom';
 
 import CategoryLink from './category-link.component';
 import { ReactComponent as InstaIcon } from '../../Icons/insta-icon.svg'
@@ -25,39 +27,43 @@ class MenuContainer extends Component {
   } 
 
   renderLinks = (list) => {
-    const { changeCat } = this.props;
+    const { history } = this.props;
 
-    return list.map(el => <CategoryLink changeCat={changeCat} key={uuid()} name={el.name} />);
+    return list.map(e => <CategoryLink changeCat={history.push} key={uuid()} name={e.name} />);
   }
 
-  handleLogoClick = (evt) => {
-    const { changeCat } = this.props;
-
-    changeCat(evt);
+  handleLogoClick = () => {
+    this.props.history.push('/home')
   }
   
   render() {
-    let { currCat } = this.props;
-
-    let openClose = currCat !== undefined ? 'open' : 'closed';
       
     return (
-      <div className={`menu-container--${openClose}`}>
-        <Logo
-          name='home'
-          onClick={this.handleLogoClick}
-          className='site-logo--menu'
-        />
+      <div className={`menu-container--open`}>
+          <Logo
+            name='home'
+            onClick={this.handleLogoClick}
+            className='site-logo--menu'
+          />
         <div className='links__container'>
           {this.renderLinks(this.state.photoData)}
           <div className='menu-divider'></div>
-          <p className='page-link'>about</p>
-          <p className='page-link'>home</p>
-          <p className='page-link'>contact</p>
+          <Link to='/home' className='page-link'>
+            home
+          </Link>
+          <Link to='/about' className='page-link'>
+            about
+          </Link>
+          <Link to='/contact' className='page-link'>
+            contact
+          </Link>
         </div>
 
         <div className='icons__container'>
-          <a target='_blank' href='https://www.instagram.com/nishellewalkerphotography/'>
+          <a
+            target='_blank'
+            href='https://www.instagram.com/nishellewalkerphotography/'
+          >
             <InstaIcon className='social-icon' />
           </a>
           <a>
@@ -73,4 +79,4 @@ class MenuContainer extends Component {
   }
 }
 
-export default MenuContainer;
+export default withRouter(MenuContainer);

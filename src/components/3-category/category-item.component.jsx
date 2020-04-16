@@ -5,7 +5,7 @@ class CategoryItem extends Component {
   handleClick = (evt) => {
     let {name, changeCat} = this.props;
     
-    changeCat(evt);
+    changeCat(`/${name}`);
   }
 
   render() {

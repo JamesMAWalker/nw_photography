@@ -128,6 +128,13 @@ input {
   padding: 1rem;
   z-index: 99;
   fill: #c9c9c9;
+  cursor: pointer;
+}
+
+.site-logo--menu:hover {
+  fill: #646464;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .menu-container--open {
@@ -303,6 +310,108 @@ input {
       justify-self: center;
 }
 
+.selector__slider {
+  -webkit-box-shadow: 2px 2px 13px 0px #545454;
+          box-shadow: 2px 2px 13px 0px #545454;
+  height: 80%;
+  width: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.selector__slider.slick-slide,
+.selector__slider slick-active,
+.selector__slider slick-current div {
+  width: 78vw !important;
+}
+
+.selector__slider:hover .slick-prev,
+.selector__slider:hover .slick-next,
+.selector__slider .slick-arrow {
+  opacity: .75;
+}
+
+.selector__slider.slick-prev,
+.selector__slider .slick-next,
+.selector__slider .slick-arrow {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 9;
+  bottom: 7%;
+  opacity: 0;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.selector__photo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 78vw !important;
+  height: 80vh;
+}
+
+.selector__photo--50 {
+  -o-object-position: 0 50%;
+     object-position: 0 50%;
+}
+
+.full-photo__container {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.full-photo__photo {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.bottom-nav {
+  height: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bottom-nav__arrows-container {
+  width: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .land__grid {
   display: -ms-grid;
   display: grid;
@@ -310,7 +419,7 @@ input {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-  background-color: #fafafa;
+  background-color: transparent;
   gap: 2rem;
   height: 80%;
   width: 100%;
@@ -417,6 +526,12 @@ input {
   transition: all .2s;
 }
 
+.photo--small:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  z-index: 99;
+}
+
 .photo--small:active {
   grid-row: 1 / span all;
   grid-column: 1 / span all;
@@ -424,6 +539,10 @@ input {
   transition: all .5s;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  -webkit-backdrop-filter: blur(0.8);
+          backdrop-filter: blur(0.8);
 }
 
 .photo--large {
@@ -441,56 +560,6 @@ input {
 .photo--large--33 {
   -o-object-position: 0 33%;
      object-position: 0 33%;
-}
-
-.selector__slider {
-  -webkit-box-shadow: 2px 2px 13px 0px #545454;
-          box-shadow: 2px 2px 13px 0px #545454;
-  height: 80%;
-  width: 100%;
-  -ms-flex-item-align: center;
-      align-self: center;
-  justify-self: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.selector__slider.slick-slide,
-.selector__slider slick-active,
-.selector__slider slick-current div {
-  width: 78vw !important;
-}
-
-.selector__slider.slick-prev,
-.selector__slider .slick-next,
-.selector__slider .slick-arrow {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 9;
-  bottom: 7%;
-  opacity: .3;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-}
-
-.selector__photo {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 78vw !important;
-  height: 80vh;
-}
-
-.selector__photo--50 {
-  -o-object-position: 0 50%;
-     object-position: 0 50%;
 }
 
 .category-selector {

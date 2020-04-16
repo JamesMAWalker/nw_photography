@@ -1,0 +1,658 @@
+(this["webpackJsonppractice_sandbox"] = this["webpackJsonppractice_sandbox"] || []).push([["main"],{
+
+/***/ "./node_modules/@svgr/webpack/lib/index.js?-svgo,+titleProp,+ref!./src/Icons/skull-face.svg":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@svgr/webpack/lib?-svgo,+titleProp,+ref!./src/Icons/skull-face.svg ***!
+  \*****************************************************************************************/
+/*! exports provided: default, ReactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactComponent", function() { return ForwardRef; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
+  filter: "url(#filter0_d)"
+}, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M144.375 349.027C138.542 349.027 134.167 344.166 134.167 338.819V325.207C134.167 319.374 139.028 314.999 144.375 314.999C150.208 314.999 154.583 319.86 154.583 325.207V338.819C154.583 344.166 149.722 349.027 144.375 349.027Z",
+  fill: "#CECECE"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M170.625 349.027C164.792 349.027 160.417 344.166 160.417 338.819V325.207C160.417 319.374 165.278 314.999 170.625 314.999C175.972 314.999 180.833 319.86 180.833 325.207V338.819C181.319 344.166 176.458 349.027 170.625 349.027Z",
+  fill: "#CECECE"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M197.361 349.027C191.528 349.027 187.153 344.166 187.153 338.819V325.207C187.153 319.374 192.014 314.999 197.361 314.999C202.708 314.999 207.569 319.86 207.569 325.207V338.819C207.569 344.166 202.708 349.027 197.361 349.027Z",
+  fill: "#CECECE"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M223.611 349.027C217.778 349.027 213.403 344.166 213.403 338.819V325.207C213.403 319.374 218.264 314.999 223.611 314.999C228.958 314.999 233.819 319.86 233.819 325.207V338.819C234.306 344.166 229.444 349.027 223.611 349.027Z",
+  fill: "#CECECE"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M318.403 204.653L325.694 144.375C325.694 64.6528 261.042 0 181.319 0C101.597 0 36.9444 64.6528 36.9444 144.375L43.75 204.653C38.4028 213.403 35.4861 224.097 35.4861 235.278C35.9722 268.819 63.1944 296.528 97.2222 296.528C103.056 296.528 108.403 295.556 113.75 294.097V304.792C113.75 316.458 122.986 325.694 134.653 325.694H230.903C242.569 325.694 251.806 316.458 251.806 304.792V294.583C256.181 295.556 260.556 296.042 265.417 296.042C299.444 296.042 326.667 268.333 326.667 234.792C326.667 224.097 323.75 213.403 318.403 204.653V204.653Z",
+  fill: "#E5E4DF"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M124.444 182.292C122.986 170.139 112.778 160.417 100.139 160.417C87.5 160.417 77.2917 170.139 76.3194 182.778H75.8333V216.806C75.8333 230.417 86.5278 241.111 100.139 241.111C113.75 241.111 124.444 230.417 124.444 216.806V182.292Z",
+  fill: "#2B3B47"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M283.403 182.292C281.944 170.139 271.736 160.417 259.097 160.417C246.458 160.417 236.25 170.139 235.278 182.778H234.792V216.806C234.792 230.417 245.486 241.111 259.097 241.111C272.708 241.111 283.403 230.417 283.403 216.806V182.292Z",
+  fill: "#2B3B47"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M182.292 238.195H182.778C183.264 238.195 183.75 238.195 184.722 238.681C186.181 239.167 188.125 239.653 189.583 240.625C193.472 242.57 196.875 245.973 198.819 250.348C200.764 254.237 201.736 259.098 201.25 263.473C200.764 265.417 200.278 267.362 199.792 268.82C199.792 269.306 199.306 270.278 199.306 270.278C199.306 270.764 198.819 270.764 198.819 270.764C197.847 272.709 195.417 274.167 193.472 273.681H192.986C192.5 273.681 192.014 273.681 191.042 273.195C189.583 272.709 187.639 272.223 185.694 271.25C181.806 269.306 178.403 265.903 176.458 261.528C175 257.639 174.028 252.778 175 248.889C175.486 246.945 175.972 245 176.458 243.542C176.458 243.056 176.944 242.084 176.944 242.084C176.944 241.598 177.431 241.598 177.431 241.598C177.917 239.167 180.347 237.709 182.292 238.195Z",
+  fill: "#2B3B47"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
+  d: "M185.208 241.11L185.694 241.597C185.694 242.083 186.181 242.569 186.181 243.055C186.667 244.513 187.153 246.458 187.639 248.402C188.125 252.777 187.639 257.638 185.208 261.527C183.264 265.902 179.375 269.305 175.972 271.249C174.028 272.222 172.083 272.708 170.625 273.194C170.139 273.194 169.167 273.68 168.681 273.68H168.194C165.764 274.166 163.819 273.194 162.847 270.763L162.361 270.277C162.361 269.791 161.875 269.305 161.875 268.819C161.389 267.361 160.903 265.416 160.417 263.472C159.931 259.097 160.417 254.236 162.847 250.347C164.792 246.458 168.681 242.569 172.083 240.624C174.028 239.652 175.972 238.68 176.944 238.68C177.431 238.68 178.403 238.194 178.889 238.194H179.375C182.292 237.708 184.236 239.166 185.208 241.11Z",
+  fill: "#2B3B47"
+}));
+
+var _ref2 =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("defs", null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("filter", {
+  id: "filter0_d",
+  x: -4,
+  y: 0,
+  width: 358,
+  height: 358,
+  filterUnits: "userSpaceOnUse",
+  colorInterpolationFilters: "sRGB"
+}, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("feFlood", {
+  floodOpacity: 0,
+  result: "BackgroundImageFix"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("feColorMatrix", {
+  in: "SourceAlpha",
+  type: "matrix",
+  values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("feOffset", {
+  dy: 4
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("feGaussianBlur", {
+  stdDeviation: 2
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("feColorMatrix", {
+  type: "matrix",
+  values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("feBlend", {
+  mode: "normal",
+  in2: "BackgroundImageFix",
+  result: "effect1_dropShadow"
+}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("feBlend", {
+  mode: "normal",
+  in: "SourceGraphic",
+  in2: "effect1_dropShadow",
+  result: "shape"
+})));
+
+function SvgSkullFace({
+  svgRef,
+  title,
+  titleId,
+  ...props
+}) {
+  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
+    width: 350,
+    height: 358,
+    viewBox: "0 0 350 358",
+    fill: "none",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", {
+    id: titleId
+  }, title) : null, _ref, _ref2);
+}
+
+const ForwardRef = react__WEBPACK_IMPORTED_MODULE_0__["forwardRef"]((props, ref) => react__WEBPACK_IMPORTED_MODULE_0__["createElement"](SvgSkullFace, _extends({
+  svgRef: ref
+}, props)));
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/skull-face.fa4d7d4c.svg");
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/App.jokes.scss":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/App.jokes.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".App {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  /* background: rgb(16,153,210); */\n  background: linear-gradient(126deg, #1099d2 50%, #7bfbf6 50%); }\n\nbody::-webkit-scrollbar {\n  background: transparent;\n  width: 0; }\n\nbody::-webkit-scrollbar-thumb {\n  background: #505050; }\n\n.joke-list__container {\n  display: flex;\n  align-items: center;\n  justify-content: space-evenly;\n  height: 70vh;\n  background-color: #fa68b6;\n  border-radius: 2px; }\n\n.joke-list__sidebar {\n  justify-self: start;\n  display: flex;\n  flex-flow: column;\n  height: 110%;\n  width: 35%;\n  justify-content: center;\n  align-items: center;\n  background-color: #89279b;\n  box-shadow: 10px 11px 21px -8px #590059; }\n\n.joke-list__title {\n  font-size: 4rem;\n  margin: 0; }\n\n.joke-list__title span {\n  color: #1099d2; }\n\n.joke-list__list {\n  width: 65%;\n  height: 70vh;\n  overflow: scroll; }\n\n.joke-list__icon {\n  display: block;\n  height: 20rem;\n  margin: 3rem 0; }\n\n/* Joke componenennt styles  */\n.Joke {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: .25rem;\n  font-size: 1rem; }\n  .Joke:not(:last-child) {\n    border-bottom: 1px solid #68006b; }\n  .Joke__buttons {\n    display: flex;\n    align-items: center;\n    margin-left: 1rem;\n    cursor: pointer;\n    width: 15%; }\n  .Joke__votes {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #3b3b3b;\n    background-color: #fafafa;\n    width: 40px;\n    height: 40px;\n    margin: 0.5rem  1rem;\n    border-radius: 100%;\n    box-shadow: 10px 11px 21px -8px #5f1c5f; }\n  .Joke__joke {\n    width: 77%;\n    margin-left: 1rem; }\n  .Joke__emoji {\n    width: 7%; }\n\n.upvote {\n  color: #4fd810; }\n\n.downvote {\n  color: #8b1f9e; }\n\n.loading-spinner {\n  color: white;\n  text-align: center;\n  border: 10px solid white;\n  padding: 4rem 4rem; }\n  .loading-spinner .header {\n    font-size: 4rem; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap\" rel=\"stylesheet);"]);
+// Module
+exports.push([module.i, "body {\r\n  margin: 0;\r\n  font-family: 'Roboto', sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  background-color: rgb(33, 36, 36);\r\n  color: #fafafa;\r\n  height: 100vh;\r\n  font-size: 1.25rem;\r\n}\r\n\r\nhtml::-webkit-scrollbar {\r\n    background: none !important;\r\n    width: 0 !important;\r\n}\r\n\r\nhtml::-webkit-scrollbar-thumb {\r\n    background: rgb(87, 87, 87) !important;\r\n}\r\n\r\nli {\r\n  list-style: square;\r\n}\r\n\r\n#root {\r\n  height: 100%;\r\n  width: 100%;\r\n  display: flex;\r\n  flex-flow: column;\r\n}\r\n\r\ncode {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\r\n    monospace;\r\n}\r\n\r\nbutton {\r\n  background-color: rgb(44, 212, 128);\r\n  border: none;\r\n  padding: 1rem 2rem;\r\n  color: white;\r\n  text-transform: uppercase;\r\n  font-family: inherit;\r\n  font-size: 2rem;\r\n  cursor: pointer;\r\n  transition: all .2S;\r\n}\r\n\r\nbutton:hover {\r\n  background-color: rgb(32, 150, 91);\r\n}\r\n\r\n.header {\r\n  font-family: fantasy;\r\n  letter-spacing: 1px;\r\n  font-weight: lighter;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/App.jokes.scss":
+/*!****************************!*\
+  !*** ./src/App.jokes.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../node_modules/postcss-loader/src??postcss!../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./App.jokes.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/App.jokes.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../node_modules/postcss-loader/src??postcss!../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./App.jokes.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/App.jokes.scss",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../node_modules/postcss-loader/src??postcss!../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./App.jokes.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/App.jokes.scss");
+
+              newContent = newContent.__esModule ? newContent.default : newContent;
+
+              if (typeof newContent === 'string') {
+                newContent = [[module.i, newContent, '']];
+              }
+
+              update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+module.exports = exported;
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_joke_list_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/joke-list.component */ "./src/components/joke-list.component.jsx");
+/* harmony import */ var _App_jokes_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.jokes.scss */ "./src/App.jokes.scss");
+/* harmony import */ var _App_jokes_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_jokes_scss__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\James Walker\\Desktop\\Udemy\\Udemy_React_Colt\\Colt_React_Projects\\CRA_Practice\\practice_sandbox\\src\\App.js";
+
+
+
+
+class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_joke_list_component__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/joke-list.component.jsx":
+/*!************************************************!*\
+  !*** ./src/components/joke-list.component.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _svgr_webpack_svgo_titleProp_ref_Icons_skull_face_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @svgr/webpack?-svgo,+titleProp,+ref!../Icons/skull-face.svg */ "./node_modules/@svgr/webpack/lib/index.js?-svgo,+titleProp,+ref!./src/Icons/skull-face.svg");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! uuid */ "./node_modules/uuid/dist/esm-browser/index.js");
+/* harmony import */ var _joke_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./joke.component */ "./src/components/joke.component.jsx");
+var _jsxFileName = "C:\\Users\\James Walker\\Desktop\\Udemy\\Udemy_React_Colt\\Colt_React_Projects\\CRA_Practice\\practice_sandbox\\src\\components\\joke-list.component.jsx";
+
+
+
+
+
+
+class JokeList extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+
+    this.getJokes = () => {
+      let newJokes = Array.from({
+        length: this.props.numJokesToGet
+      }, async () => {
+        let jokeRes = await axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('https://icanhazdadjoke.com', {
+          headers: {
+            accept: 'application/JSON'
+          }
+        });
+        return {
+          joke: jokeRes.data.joke,
+          votes: 0,
+          id: Object(uuid__WEBPACK_IMPORTED_MODULE_3__["v4"])()
+        };
+      });
+      console.log(this.seenJokes);
+      Promise.all(newJokes).then(arr => {
+        let freshJokes = arr.filter(el => !this.seenJokes.has(el.joke));
+        this.setState(st => ({
+          loading: false,
+          jokes: [...st.jokes, ...freshJokes]
+        }), () => {
+          window.localStorage.setItem('jokes', JSON.stringify(this.state.jokes));
+          freshJokes.forEach(j => this.seenJokes.add(j.joke));
+        });
+      });
+    };
+
+    this.addVote = (ID, delta) => {
+      this.setState(st => ({
+        jokes: st.jokes.map(joke => joke.id === ID ? { ...joke,
+          votes: joke.votes + delta
+        } : joke)
+      }), () => window.localStorage.setItem('jokes', JSON.stringify(this.state.jokes)));
+    };
+
+    this.moreJokes = () => {
+      this.setState({
+        loading: true
+      }, this.getJokes());
+    };
+
+    this.state = {
+      jokes: JSON.parse(window.localStorage.getItem("jokes") || "[]"),
+      loading: true
+    };
+    this.seenJokes = new Set(this.state.jokes.map(j => j.joke));
+    console.log(this.seenJokes);
+  }
+
+  componentDidMount() {
+    if (this.state.jokes.length === 0) this.getJokes();
+  }
+
+  render() {
+    const {
+      jokes
+    } = this.state;
+
+    if (this.state.loading) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "loading-spinner",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "far  fa-10x fa-spin fa-laugh",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "header",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }, "Loading..."));
+    }
+
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "joke-list__container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 81
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "joke-list__sidebar",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 82
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      className: "joke-list__title header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 83
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    }, "BAD"), "JOKES"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_svgr_webpack_svgo_titleProp_ref_Icons_skull_face_svg__WEBPACK_IMPORTED_MODULE_1__["ReactComponent"], {
+      className: "joke-list__icon",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 86
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      onClick: this.moreJokes,
+      className: "joke-list__button header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 87
+      },
+      __self: this
+    }, "LAFFMOAR")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "joke-list__list",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 89
+      },
+      __self: this
+    }, jokes.map(joke => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_joke_component__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      key: joke.id,
+      ID: joke.id,
+      joke: joke.joke,
+      votes: joke.votes,
+      addVote: this.addVote,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91
+      },
+      __self: this
+    }))));
+  }
+
+}
+
+JokeList.defaultProps = {
+  numJokesToGet: 10
+};
+/* harmony default export */ __webpack_exports__["default"] = (JokeList);
+
+/***/ }),
+
+/***/ "./src/components/joke.component.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/joke.component.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\James Walker\\Desktop\\Udemy\\Udemy_React_Colt\\Colt_React_Projects\\CRA_Practice\\practice_sandbox\\src\\components\\joke.component.jsx";
+
+
+class Joke extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+
+    this.upVote = () => {
+      this.props.addVote(this.props.ID, 1);
+    };
+
+    this.downVote = () => {
+      this.props.addVote(this.props.ID, -1);
+    };
+
+    this.reaction = () => {
+      if (this.props.votes >= 15) {
+        return `em em-skull`;
+      } else if (this.props.votes >= 11) {
+        return `em em-laughing`;
+      } else if (this.props.votes >= 7) {
+        return `em em-sweat_smile`;
+      } else if (this.props.votes >= 4) {
+        return `em em-smiley`;
+      } else if (this.props.votes >= 1) {
+        return `em em-confused`;
+      } else if (this.props.votes >= -1) {
+        return `em em-expressionless`;
+      } else if (this.props.votes >= -5) {
+        return `em em-angry`;
+      }
+    };
+
+    this.getColor = () => {
+      if (this.props.votes >= 15) {
+        return 'rgb(5, 245, 97)';
+      } else if (this.props.votes >= 10) {
+        return `rgb(161, 236, 39)`;
+      } else if (this.props.votes >= 5) {
+        return `rgb(236, 151, 39)`;
+      } else if (this.props.votes >= 0) {
+        return `rgb(206, 54, 16)`;
+      } else if (this.props.votes < -1) {
+        return `rgb(145, 9, 9)`;
+      }
+    };
+  }
+
+  render() {
+    let {
+      joke,
+      votes
+    } = this.props;
+    let voteColor = {
+      border: `4px solid ${this.getColor()}`
+    };
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "Joke",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "Joke__buttons",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      onClick: this.upVote,
+      className: "fas fa-arrow-up upvote",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: voteColor,
+      className: "Joke__votes ",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
+      },
+      __self: this
+    }, votes), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      onClick: this.downVote,
+      className: "fas fa-arrow-down downvote",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "Joke__joke",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59
+      },
+      __self: this
+    }, joke), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: `${this.reaction()} Joke__emoji`,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Joke);
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              newContent = newContent.__esModule ? newContent.default : newContent;
+
+              if (typeof newContent === 'string') {
+                newContent = [[module.i, newContent, '']];
+              }
+
+              update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+module.exports = exported;
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+var _jsxFileName = "C:\\Users\\James Walker\\Desktop\\Udemy\\Udemy_React_Colt\\Colt_React_Projects\\CRA_Practice\\practice_sandbox\\src\\index.js";
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\James Walker\Desktop\Udemy\Udemy_React_Colt\Colt_React_Projects\CRA_Practice\practice_sandbox\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\James Walker\Desktop\Udemy\Udemy_React_Colt\Colt_React_Projects\CRA_Practice\practice_sandbox\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\James Walker\Desktop\Udemy\Udemy_React_Colt\Colt_React_Projects\CRA_Practice\practice_sandbox\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map
