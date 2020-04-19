@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ReactComponent as NextArr } from '../../../Icons/shadow-arr-R.svg';
+import { ReactComponent as NextArr } from '../../../Icons/fancier-arr-white-R.svg';
 
 export default function NextArrow(props) {
   const { className, style, onClick } = props;

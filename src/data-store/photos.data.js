@@ -206,43 +206,43 @@ export const PHOTO_DATA = {
              doc_camino_dogs: {
                name: 'doc_camino_dogs',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585231758/NW_Photography/Ediorial_Dr.Bob-2_ynfkmu.png',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585231758/NW_Photography/Ediorial_Dr.Bob-2_ynfkmu.png',
              },
              running_man: {
                name: 'running_man',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911193/NW_Photography/running_man_ptei0j.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911193/NW_Photography/running_man_ptei0j.jpg',
              },
              leaf_girl: {
                name: 'leaf_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1587020059/NW_Photography/3_holing_on_masterfile_ousfn7.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587020059/NW_Photography/3_holing_on_masterfile_ousfn7.jpg',
              },
              t_dog: {
                name: 't_dog',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1587020137/NW_Photography/4_Nishelle_13_inyopg.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587020137/NW_Photography/4_Nishelle_13_inyopg.jpg',
              },
              autumn_dress: {
                name: 'autumn_dress',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1587020215/NW_Photography/5_Steps2_xesa3w.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587020215/NW_Photography/5_Steps2_xesa3w.jpg',
              },
              the_BEET: {
                name: 'the_BEET',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/the_BEET_ylavee.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911194/NW_Photography/the_BEET_ylavee.jpg',
              },
              meat_petals: {
                name: 'meat_petals',
                bgco: '#F8E300',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613321/NW_Photography/meat_and_petals_ukhnbw.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1584613321/NW_Photography/meat_and_petals_ukhnbw.jpg',
              },
              shyla_girl: {
                name: 'shyla_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/shyla-shadow-left_h8ictv.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032888/NW_Photography/shyla-shadow-left_h8ictv.jpg',
              },
            },
          },

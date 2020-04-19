@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 
 import PhotoSlider from './photo-slider.component';
 import LandGrid from './land-grid.component';
@@ -21,12 +22,21 @@ class PhotoContainer extends Component {
     return contSize;
   }
 
+  handleClick = () => {
+    const { pathname } = this.props.location;
+    
+    if (pathname === '/') {
+      this.props.toHome()
+    }
+  }
+
   render() {
     let { currCat, prevState } = this.props;
 
       if (currCat === 'home' || currCat === undefined) {
         return (
           <div
+            onClick={this.handleClick}
             className={`photo-container photo-container--${this.resize()}`}
           >
             <PhotoSlider />
@@ -54,4 +64,4 @@ class PhotoContainer extends Component {
   }
 }
 
-export default PhotoContainer;
+export default withRouter(PhotoContainer);

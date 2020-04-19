@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3rem;
   }
 
   &__photo {
@@ -21,10 +22,39 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border-top: 1px solid $color-grey-dark;
+
+  &__category-indicator {
+    &:hover {
+      color: black !important;
+      transition: all .2s;
+    }
+  }
 
   &__arrows-container {
-    width: 5%;
+    width: 15%;
     display: flex;
     justify-content: space-between;
+  }
+
+  & .arr-next,
+  & .arr-prev {
+    cursor: pointer;
+    opacity: .5;
+
+    &:hover {
+      opacity: 1;
+      transition: all .2s;
+    }
+
+  }
+
+  & .btn-close {
+
+
+    &:hover {
+      color: black;
+      transition: all .2s;
+    }
   }
 }

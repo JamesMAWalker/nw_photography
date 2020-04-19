@@ -2,6 +2,8 @@
     object-fit: cover;
     width: 78vw !important;
     height: 80vh;
+    z-index: 99;
+    cursor: url(../Icons/cursor-expand-shadow.svg), auto;
 
     &--50 {
       object-position: 0 50%;

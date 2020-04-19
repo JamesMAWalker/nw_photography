@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
 
 import MenuContainer from '../2-menu/menu-container.component';
 import PhotoContainer from '../1-photo/photo-container.component';
 import CategorySelector from '../3-category/category-selector.component';
-
-import { ReactComponent as Logo } from '../../Icons/logo-icon-shadow.svg';
 
 class CategoryPage extends Component {
 

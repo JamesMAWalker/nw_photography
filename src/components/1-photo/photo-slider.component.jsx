@@ -16,7 +16,7 @@ class PhotoSlider extends Component {
     const settings = {
       fade: true,
       infinite: true,
-      speed: 1500,
+      speed: 2500,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,

@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
 class PhotoLarge extends Component {
+
+  constructor(props) {
+    super(props);
+    
+
+  }
+  
   
   adjustCrop = name => {
     if (name === 'balloons') {
@@ -11,14 +18,15 @@ class PhotoLarge extends Component {
     }
   };
 
-  handleClick = () => {
-    const { catID, photoID, history } = this.props;
+  handleClick = (e) => {
+    const { history, alt, catID, photoID } = this.props;
+
     history.push(`/${catID}/${photoID}`);
   }
 
   render() {
-    const { alt, src, key } = this.props;
-
+    const { alt, src, key, history, catID, photoID } = this.props;
+    
     const photoPos = this.adjustCrop(alt);
 
     return (

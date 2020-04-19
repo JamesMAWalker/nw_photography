@@ -4,9 +4,9 @@ import { v4 as uuid } from 'uuid';
 import { withRouter } from 'react-router-dom';
 
 import CategoryLink from './category-link.component';
-import { ReactComponent as InstaIcon } from '../../Icons/insta-icon.svg'
-import { ReactComponent as FHPXIcon } from '../../Icons/500px-icon.svg'
-import { ReactComponent as BehanceIcon } from '../../Icons/behance-icon.svg'
+import { ReactComponent as InstaIcon } from '../../Icons/insta-icon-black.svg'
+import { ReactComponent as FbIcon } from '../../Icons/fb-icon-black.svg'
+import { ReactComponent as MediumIcon } from '../../Icons/med-icon-black.svg'
 import { ReactComponent as Logo } from '../../Icons/logo-icon.svg';
 
 import { PHOTO_DATA } from '../../data-store/photos.data';
@@ -67,10 +67,10 @@ class MenuContainer extends Component {
             <InstaIcon className='social-icon' />
           </a>
           <a>
-            <BehanceIcon className='social-icon' />
+            <MediumIcon className='social-icon' />
           </a>
           <a>
-            <FHPXIcon className='social-icon' />
+            <FbIcon className='social-icon' />
           </a>
         </div>
         <p className='copyright'>NishelleWalkerPhotography &copy;2020</p>

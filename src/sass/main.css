@@ -251,6 +251,14 @@ input {
 
 .social-icon {
   margin: .5rem;
+  opacity: .5;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .copyright {
@@ -329,6 +337,10 @@ input {
   width: 78vw !important;
 }
 
+.selector__slider .slick-active {
+  z-index: 999;
+}
+
 .selector__slider:hover .slick-prev,
 .selector__slider:hover .slick-next,
 .selector__slider .slick-arrow {
@@ -378,6 +390,7 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 3rem;
 }
 
 .full-photo__photo {
@@ -400,16 +413,42 @@ input {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  border-top: 1px solid #7e7e7e;
+}
+
+.bottom-nav__category-indicator:hover {
+  color: black !important;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .bottom-nav__arrows-container {
-  width: 5%;
+  width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.bottom-nav .arr-next,
+.bottom-nav .arr-prev {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.bottom-nav .arr-next:hover,
+.bottom-nav .arr-prev:hover {
+  opacity: 1;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.bottom-nav .btn-close:hover {
+  color: black;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .land__grid {
@@ -550,6 +589,8 @@ input {
      object-fit: cover;
   width: 78vw !important;
   height: 80vh;
+  z-index: 99;
+  cursor: url(../Icons/cursor-expand-shadow.svg), auto;
 }
 
 .photo--large--50 {

@@ -20,9 +20,7 @@ class LandingPage extends Component {
           name='home'
           onClick={this.toHome}
         />
-        <PhotoContainer
-          changeCat={this.toHome}
-        />
+        <PhotoContainer toHome={this.toHome}  />
       </div>
     );
   }
