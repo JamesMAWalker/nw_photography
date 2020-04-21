@@ -20,10 +20,24 @@ class CategorySelector extends Component {
     const { categories } = this.state;
     const { currCat, history } = this.props;
     
+    let style = {
+      zIndex: currCat === 'calories' ? '99' : '1',
+      boxShadow: currCat === 'calories' ? '2px 2px 13px 0px rgba(84,84,84,1)' : 'none'
+    }
+
+    console.log(style);
+    
+
     return (
-      <div className='category-selector'>
-        {categories.map(cat => (
-          <CategoryItem key={uuid()} currCat={currCat} indPos={`category__item--${categories.indexOf(cat) + 1}`} changeCat={history.push} name={cat.name.toLowerCase()}/>
+      <div className='category-selector' style={style}>
+        {categories.map((cat) => (
+          <CategoryItem
+            key={uuid()}
+            currCat={currCat}
+            indPos={`category__item--${categories.indexOf(cat) + 1}`}
+            changeCat={history.push}
+            name={cat.name.toLowerCase()}
+          />
         ))}
       </div>
     );

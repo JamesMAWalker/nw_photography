@@ -6,7 +6,7 @@ export default function PrevArrow(props) {
   return (
     <PrevArr
       className={className}
-      style={{ ...style, display: 'block'}}
+      style={{ ...style, display: 'block', cursor: 'pointer' }}
       onClick={onClick}
     />
   );

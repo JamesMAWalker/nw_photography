@@ -6,7 +6,7 @@ export const PHOTO_DATA = {
                name: 'blue_flower_fish',
                bgco: '#0054DE',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911193/NW_Photography/blue_flower_fish_bruhbz.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/f_auto/upload/v1583911193/NW_Photography/blue_flower_fish_bruhbz.jpg',
              },
              onions_on_stone: {
                name: 'onions_on_stone',
@@ -24,39 +24,37 @@ export const PHOTO_DATA = {
                name: 'friendly_omelette',
                bgco: '#D5B876',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613210/NW_Photography/friendly_omelette_wzgsgz.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1584613210/NW_Photography/friendly_omelette_wzgsgz.jpg',
              },
              meats_on_meats: {
                name: 'meats_on_meats',
                bgco: '#6C3412',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613210/NW_Photography/hella_meat_m6iwms.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1584613210/NW_Photography/hella_meat_m6iwms.jpg',
              },
              meat_flowers: {
                name: 'meat_flowers',
                bgco: '#F8E300',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613321/NW_Photography/meat_and_petals_ukhnbw.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1584613321/NW_Photography/meat_and_petals_ukhnbw.jpg',
              },
              la_wrap: {
                name: 'la_wrap',
                bgco: '#93C666',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1584613210/NW_Photography/santamonica_wrap_sfhiqs.jpg',
-               linkMed:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/q_49/v1584613210/NW_Photography/santamonica_wrap_sfhiqs.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1584613210/NW_Photography/santamonica_wrap_sfhiqs.jpg',
              },
              the_BEET: {
                name: 'the_BEET',
                bgco: '#D41880',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/the_BEET_ylavee.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911194/NW_Photography/the_BEET_ylavee.jpg',
              },
              splatter_food: {
                name: 'splatter_food',
                bgco: '#3A4045',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911194/NW_Photography/splatter_food_v9mzd6.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911194/NW_Photography/splatter_food_v9mzd6.jpg',
              },
            },
          },
@@ -66,47 +64,47 @@ export const PHOTO_DATA = {
              glasses_man: {
                name: 'glasses_man',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/glasses-man_lbhu74.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911192/NW_Photography/glasses-man_lbhu74.jpg',
              },
              intense_girl: {
                name: 'intense_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/intense_girl_ejzhbr.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032888/NW_Photography/intense_girl_ejzhbr.jpg',
              },
              office_girl: {
                name: 'office_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032887/NW_Photography/office-girl_iz4q4f.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032887/NW_Photography/office-girl_iz4q4f.jpg',
              },
              dreads_girl: {
                name: 'dreads_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/dreads_girl_cvupsr.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032888/NW_Photography/dreads_girl_cvupsr.jpg',
              },
              dog_hat: {
                name: 'dog_hat',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032940/NW_Photography/dog-hat_tk7w9b.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032940/NW_Photography/dog-hat_tk7w9b.jpg',
              },
              white_black_girl: {
                name: 'white_black_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1583911192/NW_Photography/girl-white-black_ydcb6a.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911192/NW_Photography/girl-white-black_ydcb6a.jpg',
              },
              teeth_girl: {
                name: 'teeth_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/teeth_girl_pp605a.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032888/NW_Photography/teeth_girl_pp605a.jpg',
              },
              shyla_girl: {
                name: 'shyla_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032888/NW_Photography/shyla-shadow-left_h8ictv.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032888/NW_Photography/shyla-shadow-left_h8ictv.jpg',
              },
              dance_girl: {
                name: 'dance_girl',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1585032887/NW_Photography/dance-girl_egjmwm.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1585032887/NW_Photography/dance-girl_egjmwm.jpg',
              },
            },
          },

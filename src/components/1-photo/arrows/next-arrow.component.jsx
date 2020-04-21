@@ -6,7 +6,7 @@ export default function NextArrow(props) {
   return (
     <NextArr
       className={className}
-      style={{ ...style, display: 'block' }}
+      style={{ ...style, display: 'block', cursor: 'pointer' }}
       onClick={onClick}
     />
   );
