@@ -13,16 +13,16 @@ html {
   margin-inline: 0 !important;
   margin-block: 0 !important;
   scroll-behavior: smooth;
-  overflow-x: hidden;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   -webkit-transition: all .2s;
   transition: all .2s;
+  overflow: hidden;
 }
 
-html::-webkit-scrollbar {
+html ::-webkit-scrollbar-track {
   display: none;
 }
 
@@ -35,6 +35,7 @@ body {
   letter-spacing: -0.015em;
   text-align: left;
   margin: 0;
+  overflow: hidden;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
@@ -275,13 +276,11 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
   background-color: #fafafa;
   z-index: 2;
+  overflow-x: scroll !important;
 }
 
 .photo-container--100 {
@@ -454,55 +453,203 @@ input {
 .land__grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 74vw 40vw 78vw;
+      grid-template-columns: 74vw 40vw 78vw;
+  margin-left: 1rem;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
   background-color: transparent;
   gap: 2rem;
   height: 80%;
-  width: 100%;
   -ms-grid-row-align: center;
       align-self: center;
   justify-self: flex-start !important;
   -webkit-transition: all .2s;
   transition: all .2s;
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
 }
 
-.land__row {
+.land__sec-one {
   display: -ms-grid;
   display: grid;
-  gap: 1rem;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  gap: 1.5rem;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (26vh)[3];
+      grid-template-rows: repeat(3, 26vh);
 }
 
-.land__row--1 {
+.land__sec-one--row1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  grid-gap: 1rem;
   -ms-grid-columns: 3fr 3fr 4fr;
       grid-template-columns: 3fr 3fr 4fr;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
 }
 
-.land__row--2 {
+.land__sec-one--row2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  gap: 1rem;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
 }
 
-.land__row--3 {
-  -ms-grid-columns: 2.5fr 5fr 2.5fr;
-      grid-template-columns: 2.5fr 5fr 2.5fr;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
+.land__sec-one--row3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  gap: 1rem;
+  -ms-grid-columns: 3fr 3fr 4fr;
+      grid-template-columns: 3fr 3fr 4fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
 }
 
-.land__row:active {
-  grid-row: 1 / span all;
-  grid-column: 1 / span all;
+.land__sec-two {
+  display: -ms-grid;
+  display: grid;
+  gap: 1.5rem;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  width: 100%;
+  -ms-grid-rows: (26vh)[3];
+      grid-template-rows: repeat(3, 26vh);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.land__sec-two .sec2__photo-1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
+.land__sec-two .sec2__photo-2 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
+.land__sec-two .sec2__photo-3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+.land__sec-two .sec2__photo-4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+.land__sec-three {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  gap: 1.5rem;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (26vh)[3];
+      grid-template-rows: repeat(3, 26vh);
+}
+
+.land__sec-three--row1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  grid-gap: 1rem;
+  -ms-grid-columns: 4fr 3fr 3fr;
+      grid-template-columns: 4fr 3fr 3fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.land__sec-three--row2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  gap: 1rem;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.land__sec-three--row3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  gap: 1rem;
+  -ms-grid-columns: 3fr 3fr 4fr;
+      grid-template-columns: 3fr 3fr 4fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
 }
 
 .portrait__grid {

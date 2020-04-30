@@ -6,7 +6,7 @@ export const PHOTO_DATA = {
                name: 'blue_flower_fish',
                bgco: '#0054DE',
                link:
-                 'https://res.cloudinary.com/jameswalker-work/image/f_auto/upload/v1583911193/NW_Photography/blue_flower_fish_bruhbz.jpg',
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911193/NW_Photography/blue_flower_fish_bruhbz.jpg',
              },
              onions_on_stone: {
                name: 'onions_on_stone',
@@ -55,6 +55,84 @@ export const PHOTO_DATA = {
                bgco: '#3A4045',
                link:
                  'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1583911194/NW_Photography/splatter_food_v9mzd6.jpg',
+             },
+             full_glasses: {
+               name: 'full_glasses',
+               bgco: '#DB9303',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444770/NW_Photography/_MG_3463_o7uhpj.jpg',
+             },
+             dandy_asparagus: {
+               name: 'dandy_asparagus',
+               bgco: '#1E1A19',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444773/NW_Photography/_MG_0695_av7mrb.jpg',
+             },
+             smug_sandwich: {
+               name: 'smug_sandwich',
+               bgco: '#E60000',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444761/NW_Photography/_MG_2922_lgp6qq.jpg',
+             },
+             full_plates: {
+               name: 'full_plates',
+               bgco: '#D5BCAD',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444770/NW_Photography/_MG_3421_iag82q.jpg',
+             },
+             seoul_food_1: {
+               name: 'seoul_food_1',
+               bgco: '#5F5D58',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444759/NW_Photography/_MG_1608_fabnnu.jpg',
+             },
+             seoul_food_2: {
+               name: 'seoul_food_2',
+               bgco: '#FDAC56',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444754/NW_Photography/_MG_1377_femkiq.jpg',
+             },
+             seoul_food_3: {
+               name: 'seoul_food_3',
+               bgco: '#EBC550',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444757/NW_Photography/_MG_1322_kcjqfo.jpg',
+             },
+             avo_toast: {
+               name: 'avo_toast',
+               bgco: '#D2D966',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444767/NW_Photography/_MG_3047_to4pzg.jpg',
+             },
+             taco_sundae: {
+               name: 'taco_sundae',
+               bgco: '#EDC2AC',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444767/NW_Photography/_MG_3196_iwc5kr.jpg',
+             },
+             mustard_BB: {
+               name: 'mustard_BB',
+               bgco: '#E3C20D',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/v1587444761/NW_Photography/_MG_2889_adysbg.jpg',
+             },
+             papurika_vert: {
+               name: 'papurika_vert',
+               bgco: '#A22023',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444773/NW_Photography/_MG_0622_noqmor.jpg',
+             },
+             papurika_horizon: {
+               name: 'papurika_horizon',
+               bgco: '#3D0804',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444772/NW_Photography/_MG_0653_lucbpy.jpg',
+             },
+             you_know_you_want_one: {
+               name: 'you_know_you_want_one',
+               bgco: '#8AA0AC',
+               link:
+                 'https://res.cloudinary.com/jameswalker-work/image/upload/f_auto/v1587444771/NW_Photography/_MG_0584_nwd37t.jpg',
              },
            },
          },

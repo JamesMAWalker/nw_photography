@@ -44,13 +44,16 @@ class PhotoContainer extends Component {
         );
       } else if (currCat === 'calories') {
         return (
-          <div className={`photo-container photo-container--${this.resize()}`}>
+          <div
+            style={{ justifyContent: 'flex-start' }}
+            className={`photo-container photo-container--${this.resize()}`}
+          >
             <LandGrid currCat={currCat} />
           </div>
         );
       } else if (currCat === 'portrait') {
         return (
-          <div className={`photo-container photo-container--${this.resize()}`}>
+          <div style={{ justifyContent: 'center' }} className={`photo-container photo-container--${this.resize()}`}>
             <PortraitGrid currCat={currCat} />
           </div>
         )
