@@ -3,23 +3,23 @@
 $color-primary: hsla(96, 98%, 51%, 0.412);
 $color-primary-dark: hsla(125, 82%, 39%, 0.412);
 
-$color-secondary: hsla(236, 72%, 50%, 0.727);
-$color-secondary-light: hsla(212, 78%, 56%, 0.778);
+$color-secondary: rgb(254, 98, 13);
+$color-secondary-light: rgb(255, 122, 0);
 
 
 $color-tertiary: hsla(34, 80%, 50%, 0.993);
 $color-tertiary-light: hsla(59, 85%, 54%, 0.815);
 
-// Opaque colors
+// Translucent colors
 
-$color-primary-op: hsl(96, 98%, 51%);
-$color-primary-dark-op: hsl(125, 82%, 39%);
+$color-primary-tr: hsl(96, 98%, 51%);
+$color-primary-dark-tr: hsl(125, 82%, 39%);
 
-$color-secondary-op: hsl(236, 72%, 50%);
-$color-secondary-light-op: hsl(212, 78%, 56%);
+$color-secondary-tr: rgba(254, 98, 13, .75);
+$color-secondary-light-tr: rgba(255, 122, 0, .45);
 
-$color-tertiary-op: hsl(34, 80%, 50%);
-$color-tertiary-light-op: hsl(59, 85%, 54%);
+$color-tertiary-tr: hsl(34, 80%, 50%);
+$color-tertiary-light-tr: hsl(59, 85%, 54%);
 
 // Greyscale Colors
 $color-grey: #ababab;

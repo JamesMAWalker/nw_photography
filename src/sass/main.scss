@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap);
 
 @import "base-styles/_1-variables.scss";
 @import "base-styles/_2-resets.scss";
@@ -7,7 +8,7 @@
 
 @import "component-styles/0-misc/_App.styles.scss";
 @import "component-styles/0-misc/_logo.styles.scss";
-@import "component-styles/1-menu/_menu-conta  iner.styles.scss";
+@import "component-styles/1-menu/_menu-container.styles.scss";
 @import "component-styles/2-photo/_photo-container.styles.scss";
 @import "component-styles/2-photo/_selector-slider.styles.scss";
 @import "component-styles/2-photo/_full-photo.styles.scss";
@@ -17,3 +18,7 @@
 @import "component-styles/2-photo/_photo-large.styles.scss";
 
 @import "component-styles/3-category/_category-selector.styles.scss";
+
+@import "page-styles/about.styles.scss";
+
+
