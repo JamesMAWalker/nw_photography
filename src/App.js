@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
+import { CSSTransition, TransitionGroup} from 'react-transition-group';
 
 import HomePage from './components/4-pages/home-page.component';
 import AboutPage from './components/4-pages/about-page.component';
