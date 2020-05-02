@@ -1,12 +1,25 @@
 .photo-container {
   display: flex;
   align-items: center;
-  
   transition: all .5s ease-out;
   background-color: $color-white-2;
   z-index: 2;
-  overflow-x: scroll !important;
+  // scrollbar-track-color: $color-white-2;
+  scrollbar-color: $color-white-2 $color-grey-light-3;
+  scrollbar-width: thin;
+  scrollbar-base-color: red;
 
+  &::-webkit-scrollbar-thumb {
+    background-color:$color-grey-light-2;
+    
+    border-radius: 50px;
+  }
+
+  &::-webkit-scrollbar {
+    background-color: $color-grey-light-3;
+    border-radius: 50px;
+    height: 4px;
+  }
   
   &--100 {
     width: 100%;

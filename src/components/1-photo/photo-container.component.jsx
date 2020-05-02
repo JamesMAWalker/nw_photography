@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
+
 import PhotoSlider from './photo-slider.component';
 import LandGrid from './land-grid.component';
 import PortraitGrid from './portrait-grid.component';
@@ -45,7 +46,7 @@ class PhotoContainer extends Component {
       } else if (currCat === 'calories') {
         return (
           <div
-            style={{ justifyContent: 'flex-start' }}
+            style={{ justifyContent: 'flex-start', overflowX: 'scroll' }}
             className={`photo-container photo-container--${this.resize()}`}
           >
             <LandGrid currCat={currCat} />

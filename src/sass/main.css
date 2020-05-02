@@ -22,10 +22,6 @@ html {
   overflow: hidden;
 }
 
-html ::-webkit-scrollbar-track {
-  display: none;
-}
-
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -280,7 +276,20 @@ input {
   transition: all .5s ease-out;
   background-color: #fafafa;
   z-index: 2;
-  overflow-x: scroll !important;
+  scrollbar-color: #fafafa #a0a0a0;
+  scrollbar-width: thin;
+  scrollbar-base-color: red;
+}
+
+.photo-container::-webkit-scrollbar-thumb {
+  background-color: #fafafa;
+  border-radius: 50px;
+}
+
+.photo-container::-webkit-scrollbar {
+  background-color: #a0a0a0;
+  border-radius: 50px;
+  height: 4px;
 }
 
 .photo-container--100 {

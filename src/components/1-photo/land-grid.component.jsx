@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { v4 as uuid } from 'uuid';
+import LazyLoad from 'react-lazyload';
 
 import PhotoSmall from './photo-small.component';
 
@@ -35,12 +36,14 @@ class LandGrid extends Component {
           {calsOne.map((r) => (
             <div className={`land__sec-one--row${calsOne.indexOf(r) + 1}`}>
               {r.map((cal) => (
-                <PhotoSmall
-                  className='photo--small'
-                  alt={cal.name}
-                  src={cal.link}
-                  key={uuid()}
-                />
+                <LazyLoad unmountIfInvisible={true}>
+                  <PhotoSmall
+                    className='photo--small'
+                    alt={cal.name}
+                    src={cal.link}
+                    key={uuid()}
+                  />
+                </LazyLoad>
               ))}
             </div>
           ))}
@@ -48,12 +51,14 @@ class LandGrid extends Component {
         <div className='land__sec-two'>
           {calsTwo.map((cal) => (
             <div className={`sec2__photo-${calsTwo.indexOf(cal) + 1}`}>
-              <PhotoSmall
-                className='photo--small'
-                alt={cal.name}
-                src={cal.link}
-                key={uuid()}
-              />
+              <LazyLoad unmountIfInvisible={true}>
+                <PhotoSmall
+                  className='photo--small'
+                  alt={cal.name}
+                  src={cal.link}
+                  key={uuid()}
+                />
+              </LazyLoad>
             </div>
           ))}
         </div>
@@ -61,12 +66,14 @@ class LandGrid extends Component {
           {calsThree.map((r) => (
             <div className={`land__sec-three--row${calsThree.indexOf(r) + 1}`}>
               {r.map((cal) => (
-                <PhotoSmall
-                  className='photo--small'
-                  alt={cal.name}
-                  src={cal.link}
-                  key={uuid()}
-                />
+                <LazyLoad unmountIfInvisible={true}>
+                  <PhotoSmall
+                    className='photo--small'
+                    alt={cal.name}
+                    src={cal.link}
+                    key={uuid()}
+                  />
+                </LazyLoad>
               ))}
             </div>
           ))}
